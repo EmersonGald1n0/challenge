@@ -20,10 +20,10 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/servicos" element={<Servicos />} />
           <Route path="/login" element={<Login />} />
           <Route path="/cadastro" element={<Cadastro />} />
-          <Route path="/servicos" element={<Servicos />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Container>
       <Footer />

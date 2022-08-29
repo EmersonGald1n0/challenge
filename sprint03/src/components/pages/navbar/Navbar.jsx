@@ -22,7 +22,7 @@ export default function Navbar() {
           <Link to="/about">Quem Somos</Link>
         </li>
         <li className={styles.item}>
-          <Link to="/contact">Contatos</Link>
+          <Link to="/servicos">Serviços</Link>
         </li>
         <li className={styles.item}>
           <Link to="/login">Fazer login</Link>
@@ -31,7 +31,7 @@ export default function Navbar() {
           <Link to="/cadastro">Cadastre-se</Link>
         </li>
         <li className={styles.item}>
-          <Link to="/servicos">Serviços</Link>
+          <Link to="/contact">Contatos</Link>
         </li>
       </ul>
 

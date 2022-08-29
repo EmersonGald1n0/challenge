@@ -1,4 +1,5 @@
-import React, { useState} from 'react'
+import React, { useState } from 'react'
+import styles from './LinkButton.module.css'
 
 export default function Login() {
 
@@ -15,21 +16,22 @@ export default function Login() {
       <br></br>
 
       <form action="/pagina-processa-dados-do-form" method="post">
-    <div>
-        <label for="mail">Digite seu email: </label>
-        <input type="email" id="mail" />
-    </div>
-    <br></br>
+        <div>
+          <label for="mail">Digite seu email: </label>
+          <input type="email" id="mail" placeholder='Email' />
+        </div>
+        <br></br>
 
-    <div>
-        <label for="name">Digite sua senha: </label>
-        <input type="text" id="name" />
-    </div>
+        <div>
+          <label for="name">Digite sua senha: </label>
+          <input type="text" id="name" placeholder='Senha' />
+        </div>
 
-    <div class="button">
-        <button type="submit">Entrar</button>
-    </div>
-</form>
+        <br></br>
+        <div>
+          <button className={styles.btn} type="submit">Entrar</button>
+        </div>
+      </form>
 
     </div>
 

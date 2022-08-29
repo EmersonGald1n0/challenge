@@ -1,12 +1,9 @@
 import React from 'react'
-
+import styles from './Contact.module.css'
 export default function Contact() {
-  const contact = {
-    backgroundColor: '#f5f5f5'
-  }
 
   return (
-    <div style={contact}>
+    <div className={styles.contact_container}>
       <div>
         <h1>Contatos</h1>
         <p>Envie suas dúvidas ou sugestões em um dos nosso canais de atendimento.</p>
@@ -36,7 +33,7 @@ export default function Contact() {
           </div>
           <br></br>
           <div>
-            <button type="submit">Enviar</button>
+            <button className={styles.btn} type="submit">Enviar</button>
           </div>
         </form>
       </div>
