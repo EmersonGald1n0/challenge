@@ -1,14 +1,28 @@
 import React from 'react'
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import style from './Footer.module.css'
+
 
 export default function Footer() {
-  const footer = {
-    backgroundColor: '#f5f5f5'
-  }
 
   return (
-    <div style={footer}>
-      <h1>Footer</h1>
-    </div>
-    
+    <footer className={style.footer}>
+      <ul className={style.social_list}>
+        <li>
+          <FaFacebook />
+        </li>
+        <li>
+          <FaInstagram />
+        </li>
+        <li>
+          <FaLinkedin />
+        </li>
+      </ul>
+      <p className={style.FaFacebook}>
+        &copy; Copyright 2022 - Todos os direitos reservados - Desenvolvido por <span>Art Labs Soluções
+          Digitais</span>
+      </p>
+    </footer>
+
   )
 }
