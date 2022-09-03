@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route, Link } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Home from './components/pages/home/Home'
 import About from './components/pages/about/About'
 import Contact from './components/pages/contact/Contact'
@@ -20,9 +20,9 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/servicos" element={<Servicos />} />
           <Route path="/login" element={<Login />} />
           <Route path="/cadastro" element={<Cadastro />} />
+          <Route path="/servicos" element={<Servicos />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Container>
