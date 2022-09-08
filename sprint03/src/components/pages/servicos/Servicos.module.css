@@ -1,0 +1,115 @@
+.servicos {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column; 
+  padding: 8em;
+  color: #525252;
+}
+
+.bloco1 {
+  display: flex;
+  float: left;
+}
+
+.title1 {
+  padding: 2em;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-top: -5em;
+}
+
+.servicos img {
+  width: 400px;
+  height: 200px;
+}
+
+.span {
+  color: #084EDC;
+}
+
+.serv1 {
+  float: left;
+}
+
+.text1 {
+  
+  float: left;
+  margin-top: 9%;
+  margin-left: 80px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.serv2 {
+  float: right;
+}
+
+.text2 {
+  padding: 0px;
+  float: right;
+  margin-top: 9%;
+  margin-right: 80px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.serv3 {
+  float: left;
+}
+
+.text3 {
+  float: left;
+  margin-top: 9%;
+  margin-left: 80px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.serv4 {
+  float: right;
+
+}
+
+.text4 {
+  float: right;
+  margin-top: 9%;
+  margin-right: 80px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.serv5 {
+  float: left;
+
+}
+
+.text5 {
+  float: left;
+  margin-top: 9%;
+  margin-left: 80px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.serv6 {
+  float: right;
+
+}
+
+.text6 {
+  float: right;
+  margin-top: 9%;
+  margin-right: 80px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.title2 {
+  padding: 2em;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: -5em;
+  
+}
+

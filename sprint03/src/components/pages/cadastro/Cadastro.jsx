@@ -2,20 +2,23 @@ import React from 'react'
 import styles from './Cadastro.module.css'
 
 export default function Cadastro() {
+  
   return (
     <div className={styles.cadastro_container}>
       <h1>É NOVO POR AQUI?</h1>
       <h3>Crie uma conta e tenha acesso</h3>
-      <h3>a milhares vagas de emprego</h3>
+      <h3>a milhares de vagas de empregos</h3>
       <br></br>
-      <form action="/pagina-processa-dados-do-form" method="get">
+      <form action="/pagina-processa-dados-do-form" method="post">
         <div>
-          <label for="mail">Digite seu email: </label>
-          <input type="email" id="mail" placeholder='Email' />
+          <input type="nome" id="nome" placeholder='Digite seu email...' />
         </div>
         <br></br>
-        <div class="button">
-          <button className={styles.btn} type="submit">Entrar</button>
+        <div className={styles.button1}>
+          <button className={styles.btn} type="submit">Candidato</button>
+        </div>
+        <div className={styles.button2}>
+          <button className={styles.btn} type="submit">Recrutador</button>
         </div>
       </form>
     </div>

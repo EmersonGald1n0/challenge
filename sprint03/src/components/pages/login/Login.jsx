@@ -1,30 +1,23 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styles from './LinkButton.module.css'
 
 export default function Login() {
 
-  const login = {
-
-    backgroundColor: '#f5f5f5'
-  }
-
   return (
-    <div style={login}>
+    <div className={styles.login}>
       <h1>BEM VINDO</h1>
 
-      <h2>Acesse seu perfil</h2>
+      <h2>Acesse o seu perfil</h2>
       <br></br>
 
       <form action="/pagina-processa-dados-do-form" method="post">
         <div>
-          <label for="mail">Digite seu email: </label>
-          <input type="email" id="mail" placeholder='Email' />
+          <input type="email" id="mail" placeholder='Digite seu login...' />
         </div>
         <br></br>
 
         <div>
-          <label for="name">Digite sua senha: </label>
-          <input type="text" id="name" placeholder='Senha' />
+          <input type="text" id="name" placeholder='Digite a sua senha...' />
         </div>
 
         <br></br>

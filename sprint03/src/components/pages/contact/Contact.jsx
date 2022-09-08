@@ -6,6 +6,7 @@ export default function Contact() {
     <div className={styles.contact_container}>
       <div>
         <h1>Contatos</h1>
+        <br />
         <p>Envie suas dúvidas ou sugestões em um dos nosso canais de atendimento.</p>
         <p>Email: contato@emprega+.com.br</p>
         <p>Telefone: 0800 080 080</p>
@@ -13,22 +14,18 @@ export default function Contact() {
         <br></br>
         <form action="">
           <div>
-            <label htmlFor="">Digite seu nome: </label>
-            <input type="text" placeholder="Nome" />
+            <input type="text" placeholder="Digite seu nome..." />
           </div>
           <br></br>
           <div>
-            <label htmlFor="">Digite seu email: </label>
-            <input type="text" placeholder="Email" />
+            <input type="text" placeholder="Digite seu email..." />
           </div>
           <br></br>
           <div>
-            <label htmlFor="">Digite o assunto: </label>
             <input type="text" placeholder="Digite o assunto..." />
           </div>
           <br></br>
           <div>
-            <label htmlFor="">Descreva: </label>
             <textarea name="" id="" cols="30" rows="10" placeholder="Descreva sua dúvida..."></textarea>
           </div>
           <br></br>
