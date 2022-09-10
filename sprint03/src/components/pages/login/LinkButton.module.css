@@ -1,11 +1,28 @@
+.login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8em;
+  font-weight: bold;
+  text-align: center;
+}
+
 .btn {
   background-color: #525252;
   color: #FFF;
   padding: 0.5em 1em;
   text-decoration: none;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .btn:hover {
   background-color: #084EDC;
+}
+
+.login h1 {
+  color: #084EDC;
+  font-weight: bold;
+  font-size: 2.5em;
 }

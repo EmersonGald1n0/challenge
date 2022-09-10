@@ -1,7 +1,24 @@
-.navbar{
+.navbar {
   display: flex;
-  justify-content: space-between;
   background-color: #222;
+  padding: 15px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.img1 {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.navegacao {
+  display: flex;
+  width: 100%;
+  justify-content: end;
 }
 
 .list {
