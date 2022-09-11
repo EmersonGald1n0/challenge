@@ -20,15 +20,19 @@ import PerfilCandidato from './components/pages/perfilCandidato/PerfilCandidato'
 import Senha from './components/pages/senha/Senha'
 
 
+
+
 export default function App() {
+  
+  
   return (
     <>
       <Navbar />
-      <Container customClass="min-height">
+      <Container >
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/login" element={<Login />} />
+          <Route customClass="min-height" path="/about" element={<About />} />
+          <Route customClass="min-height" path="/login" element={<Login />} />
           <Route path="/cadastro" element={<Cadastro />} />
           <Route path="/servicos" element={<Servicos />} />
           <Route path="/contact" element={<Contact />} />
