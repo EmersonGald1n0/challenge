@@ -1,18 +1,30 @@
 .navbar {
   display: flex;
-  background-color: #222;
-  padding: 15px;
-}
-
-.img {
-  display: flex;
-  justify-content: center;
+  background-color: #efefef;
+  box-shadow: 0 0 10px #000000;
+  height: 7vh;
+  font-weight: bolder;
+  position: relative;
 }
 
 .img1 {
+  width: 40px;
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  margin-right: 1rem;
+  opacity: 0.5;
+  
+}
+
+.img2 {
   width: 250px;
   display: flex;
+  top: 0.5rem;
+  position: absolute;
   justify-content: center;
+  margin-left: 52rem;
 }
 
 .navegacao {
@@ -29,13 +41,16 @@
 
 .item {
   margin-right: 1em;
+  
 }
 
 .item a {
-  color: #fff;
+  color: #525252;
   text-decoration: none;
 }
 
 .item a:hover {
   color: #084EDC;
 }
+
+
