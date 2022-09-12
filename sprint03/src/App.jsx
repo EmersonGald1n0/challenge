@@ -28,8 +28,11 @@ export default function App() {
   return (
     <>
       <Navbar />
+      
       <Container >
+      
         <Routes>
+      
           <Route path="/" element={<Home />} />
           <Route customClass="min-height" path="/about" element={<About />} />
           <Route customClass="min-height" path="/login" element={<Login />} />
@@ -41,8 +44,11 @@ export default function App() {
           <Route path="/perfilRecrutador" element={<PerfilRecrutador />} />
           <Route path="/perfilCandidato" element={<PerfilCandidato />} />
           <Route path="/senha" element={<Senha />} />
+      
         </Routes>
+      
       </Container>
+      
       <Footer />
     </>
   )

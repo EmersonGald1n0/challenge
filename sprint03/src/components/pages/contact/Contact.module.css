@@ -17,8 +17,40 @@
   text-decoration: none;
   transition: 0.5s;
   cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 .btn:hover {
   background-color: #084EDC;
+}
+
+.text1 {
+  color: #084EDC;
+  padding: 30px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+input {
+  width: 25vh;
+  height: 1.5vw;
+  border-radius: 0.5vh;
+  border-color: #084EDC;
+  text-align: center;
+  padding: 1em;
+  margin-top: 20px;
+}
+
+textarea {
+  border-radius: 0.5vh;
+  border-width: 2px;
+  border-color: #084EDC;
+  text-align: center;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  margin-top: 20px;
 }

@@ -9,17 +9,25 @@ import home3 from '../../../img/home3.jpg'
 export default function Home() {
   return (
     <>
-      
+
       <div className="Home">
+
         <Carousel>
-          <Item><img src={home3} alt="" /> <h1 className='text1'>São + de 1.500 vagas de emprego disponíveis</h1>
-          <h1 className='text2'>Se inscreva e faça parte do nosso time de colaboradores</h1>
+
+          <Item><img src={home3} alt="Vagas de Emprego" /> <h1 className='text1'>São + de 1.500 vagas de emprego disponíveis</h1>
+            <h1 className='text2'>Se inscreva e faça parte do nosso time de colaboradores</h1>
           </Item>
-          <Item><img src={home2} alt="" /><h1 className='text1'>São + de 1.500 vagas de emprego disponíveis</h1>
-          <h1 className='text2'>Se inscreva e faça parte do nosso time de colaboradores</h1></Item>
-          <Item><img src={home1} alt="" /><h1 className='text1'>São + de 1.500 vagas de emprego disponíveis</h1>
-          <h1 className='text2'>Se inscreva e faça parte do nosso time de colaboradores</h1></Item>
+
+          <Item><img src={home2} alt="Vagas de Emprego" /><h1 className='text1'>São diversas áreas de atuação</h1>
+            <h1 className='text2'>Participe de nossos processos seletivos</h1>
+          </Item>
+
+          <Item><img src={home1} alt="Vagas de Emprego" /><h1 className='text1'>Ainda não se inscreveu?</h1>
+            <h1 className='text2'>Venha fazer parte da nossa história</h1>
+          </Item>
+
         </Carousel>
+
       </div>
     </>
   );

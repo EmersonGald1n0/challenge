@@ -4,6 +4,7 @@
   justify-content: space-between;
   margin: 0 auto;
   flex-wrap: wrap;
+  margin-top: 15px;
 }
 
 .servicos {
@@ -21,10 +22,11 @@
 }
 
 .title1 {
-  padding: 2em;
-  font-size: 2.5em;
+  
+  padding: 8vh;
+  font-size: 4vh;
   font-weight: bold;
-  margin-top: -5em;
+  margin-top: -15vh;
 }
 
 .servicos img {
@@ -44,9 +46,9 @@
   
   float: left;
   margin-top: 9%;
-  margin-left: 80px;
+  margin-left: 142px;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .serv2 {
@@ -57,9 +59,9 @@
   padding: 0px;
   float: right;
   margin-top: 9%;
-  margin-right: 80px;
+  margin-right: 152px;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .serv3 {
@@ -67,11 +69,12 @@
 }
 
 .text3 {
-  float: left;
+  padding: 0px;
+  float: right;
   margin-top: 9%;
   margin-left: 80px;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .serv4 {
@@ -80,11 +83,12 @@
 }
 
 .text4 {
+  padding: 0px;
   float: right;
   margin-top: 9%;
   margin-right: 80px;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .serv5 {
@@ -93,11 +97,13 @@
 }
 
 .text5 {
-  float: left;
+  padding: 0px;
+  float: right;
   margin-top: 9%;
-  margin-left: 80px;
+  margin-left: 20px;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.1em;
+  
 }
 
 .serv6 {
@@ -108,16 +114,39 @@
 .text6 {
   float: right;
   margin-top: 9%;
-  margin-right: 80px;
+  margin-right: 63px;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .title2 {
-  padding: 2em;
-  font-size: 2.5em;
+  padding: 8vh;
+  font-size: 4vh;
   font-weight: bold;
-  margin-bottom: -5em;
+  margin-bottom: -15vh;
+}
+
+.button1 {
+  padding: 110px 0px 0px 0px;
   
+}
+
+.btn {
+  background-color: #525252;
+  color: #FFF;
+  padding: 0.5em 1em;
+  width: 15em;
+  height: 4em;
+  text-decoration: none;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 100px 0px 0px 0px;
+}
+
+.btn:hover {
+  background-color: #084EDC;
 }
 
