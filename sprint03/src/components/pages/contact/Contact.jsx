@@ -1,11 +1,19 @@
 import React from 'react'
 import styles from './Contact.module.css'
+import contato from '../../../img/contato.png'
+
+
 export default function Contact() {
 
   return (
     <div className={styles.contact_container}>
 
       <div>
+        <div className={styles.img}>
+          <img className={styles.img1} src={contato} alt="contato"  />
+        </div>
+        
+        
         <h1 className={styles.text1}>CONTATO</h1>
 
         <p>Envie suas dúvidas ou sugestões em um dos nosso canais de atendimento.</p>

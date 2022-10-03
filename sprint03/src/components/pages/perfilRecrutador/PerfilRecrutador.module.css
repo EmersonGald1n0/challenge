@@ -1,7 +1,7 @@
 .cadastro_container {
   text-align: center;
   width: 100%;
-  height: 80vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,7 +13,7 @@
   color: #525252;
   font-weight: bold;
   font-size: 2.5em;
-  padding: 40px;
+  padding: 10px;
 }
 
 .cadastro_container h3 {
@@ -33,6 +33,7 @@
   border-radius: 5px;
   font-weight: bold;
   margin-top: 40px;
+  flex-direction: column;
 }
 
 .btn:hover {
@@ -47,4 +48,39 @@
   width: 150px;
 }
 
+.empresa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
+}
+
+.processo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.processo h1 {
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+.processo input {
+  margin-bottom: 15px;
+}
+
+.button1{
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  width: 30%;
+}
+
+.form_group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

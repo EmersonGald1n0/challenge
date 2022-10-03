@@ -1,13 +1,17 @@
 import React from 'react'
 import styles from './CadastroCandidato.module.css'
 import { Link } from 'react-router-dom'
+import cadcand from '../../../img/cadcand.png'
 
 export default function Cadastro() {
 
   return (
     <div className={styles.cadastro_container}>
 
-      <h1>AGORA FALTA POUCO!</h1>
+        <div className={styles.img}>
+          <img className={styles.img1} src={cadcand} alt="contato"  />
+        </div>
+      
       <h3>Preencha os dados abaixo e finalize o seu cadastro como Candidato...</h3>
 
       <form action="/pagina-processa-dados-do-form" method="post">
@@ -52,13 +56,18 @@ export default function Cadastro() {
           <input type="text" id="senha" placeholder='Digite a sua senha...' />
         </div>
 
+        <div>
+          <label htmlFor="" tabIndex={0}>
+            <input type="file" accept='image/*' className='picture__input' />
+            <span className='picture__image'></span>
+          </label>
+        </div>
+
         <div className={styles.button1}>
           <Link to="/perfilCandidato">
             <button className={styles.btn} type="submit">Cadastrar</button>
           </Link>
         </div>
-        <p>*URL temporário no botão, somente para mostrar sua função.</p>
-
       </form>
     </div>
 

@@ -47,10 +47,9 @@
   
 }
 
-/* .genero_grupo {
-  text-align: justify;
-  display: flex;
-  flex-direction: column;
-  font-size: 14px;
-  width: 100%;
-} */
+.img1 {
+  
+  width: 20%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

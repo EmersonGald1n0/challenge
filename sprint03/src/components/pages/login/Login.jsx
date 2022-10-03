@@ -1,12 +1,17 @@
 import React from 'react'
 import styles from './LinkButton.module.css'
 import { Link } from 'react-router-dom'
+import login2 from '../../../img/login2.png'
 
 export default function Login() {
 
   return (
     <div className={styles.login}>
 
+        <div className={styles.img}>
+          <img className={styles.img1} src={login2} alt="contato"  />
+        </div>
+      
       <h1>BEM VINDO</h1>
       <h2>Acesse o seu perfil</h2>
 
@@ -24,9 +29,6 @@ export default function Login() {
           <Link to="/perfilCandidato">
             <button className={styles.btn} type="submit">Entrar</button>
           </Link>
-        </div>
-        <p>*URL temporário no botão, somente para mostrar sua função.</p>
-        <div>
           <Link to="/senha">
             <p className={styles.teste}>Esqueceu sua senha?</p>
           </Link>

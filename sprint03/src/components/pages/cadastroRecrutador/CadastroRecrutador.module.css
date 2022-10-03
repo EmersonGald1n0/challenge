@@ -36,3 +36,24 @@
 .btn:hover {
   background-color: #084EDC;
 }
+
+.img1 {
+  
+  
+  width: 70%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.teste {
+  color: #525252;
+  border-radius: 5px;
+  font-size: 0.9em;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.teste2 {
+  margin-top: 15px;
+}

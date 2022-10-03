@@ -1,12 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styles from './Cadastro.module.css'
+import login3 from '../../../img/login3.png' 
 
 export default function Cadastro() {
 
   return (
     <div className={styles.cadastro_container}>
 
+        <div className={styles.img}>
+          <img className={styles.img1} src={login3} alt="contato"  />
+        </div>
+      
       <h1>É NOVO POR AQUI?</h1>
 
       <h3>Crie uma conta e tenha acesso</h3>

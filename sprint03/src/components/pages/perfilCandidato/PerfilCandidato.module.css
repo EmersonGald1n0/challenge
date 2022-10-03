@@ -1,7 +1,7 @@
 .cadastro_container {
   text-align: center;
   width: 100%;
-  height: 80vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,8 +43,34 @@
   color: red;
 }
 
-.foto_user {
-  width: 150px;
+.img {
+  width: 30%;
+}
+
+.form_group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.processo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.processo h1 {
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+.processo input {
+  margin-bottom: 15px;
 }
 
 
