@@ -1,23 +1,74 @@
 import React from 'react'
 import styles from './PerfilRecrutador.module.css'
+import { Link } from 'react-router-dom'
+import perfilCand from '../../../img/perfilCand.png'
 
 export default function PerfilRecrutador() {
-  
+
   return (
     <div className={styles.cadastro_container}>
-      <h1>É NOVO POR AQUI?</h1>
-      <h3>Crie uma conta e tenha acesso</h3>
-      <h3>a milhares de vagas de empregos</h3>
+      <h1>Olá, <span>Patricia</span></h1>
+      <div>
+        <img className={styles.img} src={perfilCand} alt="" />
+      </div>
+      <h3>Dados <span>Empresa</span></h3>
+      <br />
       <form action="/pagina-processa-dados-do-form" method="post">
-        <div>
-          <input type="nome" id="nome" placeholder='Digite seu email...' />
+        <div className={styles.empresa}>
+          
+          <input type="nome" id="nome" placeholder='Nome da Empresa' />
+          <input type="nome" id="nome" placeholder='Nº CNPJ' />
+          <input type="nome" id="nome" placeholder='Código da Empresa' />
+          <input type="text" placeholder='Descrição do Cargo...'/>
         </div>
-        <br></br>
+        <div className={styles.processo}>
+          <br />
+          <br />
+          <h1>Processo <span>Seletivo</span></h1>
+          <br />
+          <br />
+          <label forHtml="data">Data da Entrevista: </label>
+          <input type="date" name="data" id="data"/>
+          <label forHtml="data">Data do Início: </label>
+          <input type="date" name="data" id="data"/>
+          <label forHtml="data">Data do Término: </label>
+          <input type="date" name="data" id="data"/>
+          <div className="wrapper">
+            <br />
+            <br />
+            <h1>Status Processo <span>Seletivo</span></h1>
+            <div className={styles.form_group}>
+              <input className="radio" name="pessoal" id="radio1" type='radio' checked />
+              <label forHtml="radio1">Iniciado</label>
+              <input class="radio" name="corp" id="radio2" type='radio' />
+              <label forHtml="radio2">Finalizado</label>
+            </div>
+          </div>
+          <div>
+            <br />
+            <br />
+            <h1>Status <span>Aprovação</span></h1>
+            <div className={styles.form_group}>
+              <input className="radio" name="pessoal" id="radio1" type='radio' checked />
+              <label forHtml="radio1">Aprovado</label>
+              <input class="radio" name="corp" id="radio2" type='radio' />
+              <label forHtml="radio2">Reprovado</label>
+              <br />
+              <br />
+            </div>
+          </div>
+          <div>
+            <textarea name="desc" placeholder='Descrição do Processo Seletivo…' cols="40" rows="10"></textarea>
+          </div>
+        </div>
+
         <div className={styles.button1}>
-          <button className={styles.btn} type="submit">Candidato</button>
-        </div>
-        <div className={styles.button2}>
-          <button className={styles.btn} type="submit">Recrutador</button>
+          <Link to="/">
+            <button className={styles.btn} type="submit">Salvar Informações</button>
+          </Link>
+          <Link to="/cadastroComplementar">
+            <button className={styles.btn} type="submit">Cadastrar Dados Complementares</button>
+          </Link>
         </div>
       </form>
     </div>

@@ -17,6 +17,9 @@ import CadastroCandidato from './components/pages/cadastroCandidato/CadastroCand
 import PerfilRecrutador from './components/pages/perfilRecrutador/PerfilRecrutador'
 import PerfilCandidato from './components/pages/perfilCandidato/PerfilCandidato'
 
+import CadastroComplementar from './components/pages/cadastroComplementar/CadastroComplementar'
+import CadastroComplementar2 from './components/pages/cadastroComplementar2/CadastroComplementar2'
+
 import Senha from './components/pages/senha/Senha'
 
 
@@ -28,8 +31,11 @@ export default function App() {
   return (
     <>
       <Navbar />
+      
       <Container >
+      
         <Routes>
+      
           <Route path="/" element={<Home />} />
           <Route customClass="min-height" path="/about" element={<About />} />
           <Route customClass="min-height" path="/login" element={<Login />} />
@@ -40,9 +46,14 @@ export default function App() {
           <Route path="/cadastroRecrutador" element={<CadastroRecrutador />} />
           <Route path="/perfilRecrutador" element={<PerfilRecrutador />} />
           <Route path="/perfilCandidato" element={<PerfilCandidato />} />
+          <Route path="/cadastroComplementar" element={<CadastroComplementar />} />
+          <Route path="/cadastroComplementar2" element={<CadastroComplementar />} />
           <Route path="/senha" element={<Senha />} />
+      
         </Routes>
+      
       </Container>
+      
       <Footer />
     </>
   )

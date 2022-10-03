@@ -1,23 +1,72 @@
 import React from 'react'
 import styles from './CadastroCandidato.module.css'
+import { Link } from 'react-router-dom'
+import cadcand from '../../../img/cadcand.png'
 
 export default function Cadastro() {
-  
+
   return (
     <div className={styles.cadastro_container}>
-      <h1>É NOVO POR AQUI?</h1>
-      <h3>Crie uma conta e tenha acesso</h3>
-      <h3>a milhares de vagas de empregos</h3>
+
+        <div className={styles.img}>
+          <img className={styles.img1} src={cadcand} alt="contato"  />
+        </div>
+      
+      <h3>Preencha os dados abaixo e finalize o seu cadastro como Candidato...</h3>
+
       <form action="/pagina-processa-dados-do-form" method="post">
+
         <div>
-          <input type="nome" id="nome" placeholder='Digite seu email...' />
+          <input type="text" id="nome" placeholder='Digite o seu nome...' />
         </div>
-        <br></br>
+
+        <div>
+          <input type="text" id="nascimento" placeholder='Digite a sua data de nascimento...' />
+        </div>
+
+        <div>
+          <input type="text" id="cpf" placeholder='Digite o seu CPF...' />
+        </div>
+
+        <div>
+          <input type="text" id="sexo" placeholder='Digite o seu sexo...' />
+        </div>
+
+        <div>
+          <input type="text" id="civil" placeholder='Digite o seu estado civil...' />
+        </div>
+
+        <div>
+          <input type="text" id="mae" placeholder='Digite o nome da sua Mãe...' />
+        </div>
+
+        <div>
+          <input type="text" id="telefone" placeholder='Digite o seu telefone com DDD...' />
+        </div>
+
+        <div>
+          <input type="text" id="salario" placeholder='Digite a sua pretensão salarial...' />
+        </div>
+
+        <div>
+          <input type="text" id="email" placeholder='Digite o seu email...' />
+        </div>
+
+        <div>
+          <input type="text" id="senha" placeholder='Digite a sua senha...' />
+        </div>
+
+        <div>
+          <label htmlFor="" tabIndex={0}>
+            <input type="file" accept='image/*' className='picture__input' />
+            <span className='picture__image'></span>
+          </label>
+        </div>
+
         <div className={styles.button1}>
-          <button className={styles.btn} type="submit">Candidato</button>
-        </div>
-        <div className={styles.button2}>
-          <button className={styles.btn} type="submit">Recrutador</button>
+          <Link to="/perfilCandidato">
+            <button className={styles.btn} type="submit">Cadastrar</button>
+          </Link>
         </div>
       </form>
     </div>

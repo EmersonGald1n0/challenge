@@ -1,10 +1,10 @@
 .about {
-  width: 75rem;
+  width: 75%;
+  height: 80vh;
   padding: 8em;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  flex-wrap: wrap;
 }
 
 .min-height {
@@ -12,8 +12,9 @@
 }
 
 .text h1 {
-  text-align: end;
-  font-size: 1.5em;
+  text-align: right;
+  padding: 12px;
+  font-size: 1.6em;
   font-weight: bold;
   flex-wrap: wrap-reverse;
   color: #084EDC;
@@ -21,8 +22,8 @@
 
 .quem_somos {
   padding: 10px;
-  width: 55vh;
-  height: 47vh;
+  width: 70vh;
+  height: 60vh;
   margin-right: 20px;
 }
 
@@ -32,10 +33,11 @@
 }
 
 .text p {
-  padding: 10px;
+  padding: 12px;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.2em;
   color: #525252;
+  text-align: right;
 }
 
 .span {
