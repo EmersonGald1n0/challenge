@@ -54,7 +54,7 @@ export default function CadastroComplementar() {
                 </div>
                 <div>
                   <h1>ENDEREÇO</h1>
-                  <input type="nome" id="nome" placeholder='Nome do Endereço...' />
+                  <input type="nome" id="nome" placeholder='Endereço...' />
                   <input type = "text" placeholder = "Nº Endereço…" />
                   <input type = "text" placeholder = "Nº CEP…" />
                   <input type = "text" placeholder = "Complemento…" />

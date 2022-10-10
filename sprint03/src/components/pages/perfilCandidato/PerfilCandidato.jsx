@@ -169,6 +169,9 @@ export default function PerfilCandidato() {
           <Link to="/">
             <button className={styles.btn} type="submit">Salvar Informações</button>
           </Link>
+          <Link to="/formVagas">
+            <button className={styles.btn} type="submit">Vagas de Emprego</button>
+          </Link>
           <Link to="/cadastroComplementar2">
             <button className={styles.btn} type="submit">Cadastrar Dados Complementares</button>
           </Link>
