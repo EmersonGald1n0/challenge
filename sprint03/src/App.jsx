@@ -20,6 +20,10 @@ import PerfilCandidato from './components/pages/perfilCandidato/PerfilCandidato'
 import CadastroComplementar from './components/pages/cadastroComplementar/CadastroComplementar'
 import CadastroComplementar2 from './components/pages/cadastroComplementar2/CadastroComplementar2'
 
+import CadastroVagas from './components/pages/cadastroVagas/CadastroVagas'
+import FormVagas from './components/pages/formVagas/FormVagas'
+import PropsCadastro from './components/pages/propsCadastro/PropsCadastro'
+
 import Senha from './components/pages/senha/Senha'
 
 
@@ -49,6 +53,9 @@ export default function App() {
           <Route path="/cadastroComplementar" element={<CadastroComplementar />} />
           <Route path="/cadastroComplementar2" element={<CadastroComplementar />} />
           <Route path="/senha" element={<Senha />} />
+          <Route path="/cadastroVagas" element={<CadastroVagas />} />
+          <Route path="/formVagas" element={<FormVagas />} />
+          <Route path="/propsCadastro" element={<PropsCadastro />} />
       
         </Routes>
       
