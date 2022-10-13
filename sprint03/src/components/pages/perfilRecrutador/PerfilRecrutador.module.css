@@ -36,12 +36,44 @@
   flex-direction: column;
 }
 
-.btn:hover {
+.btn1 {
+  background-color: #084EDC;
+  color: #FFF;
+  padding: 1em 2em;
+  text-decoration: none;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 100px;
+  font-weight: bold;
+  flex-direction: column;
+  margin: 40px 40px;
+  font-size: 1.3em;
+  margin-top: 50px;
+}
+
+.btn1:hover {
+  background-color: #525252;
+}
+
+.btn2 {
+  background-color: #525252;
+  color: #FFF;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.btn2:hover{
   background-color: #084EDC;
 }
 
-.sinal{
-  color: red;
+.btn:hover {
+  background-color: #084EDC;
 }
 
 .foto_user {
@@ -83,4 +115,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.linha {
+  width: 100%;
+  height: 1px;
+  background-color: #084EDC;
+  margin-top: 50px;
+  
 }
