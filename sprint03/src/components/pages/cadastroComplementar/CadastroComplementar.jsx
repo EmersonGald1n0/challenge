@@ -31,11 +31,6 @@ export default function CadastroComplementar() {
                 <input class="radio" name="inativo" id="radio2" type='radio' />
                 <label forHtml="radio2">Inativo</label>
               </div>
-              <div>
-                <Link to="/">
-                  <button className={styles.btn} type="submit">Salvar Informações</button>
-                </Link>
-              </div>
               <div className={styles.linha} />
               <div className="wrapper">
                 <h1>Telefone</h1>
@@ -59,11 +54,6 @@ export default function CadastroComplementar() {
                   <input class="radio" name="comercial" id="radio2" type='radio' />
                   <label forHtml="radio2">Inativo</label>
                 </div>
-                <div>
-                  <Link to="/">
-                    <button className={styles.btn} type="submit">Salvar Informações</button>
-                  </Link>
-                </div>
                 <div className={styles.linha} />
                 <div className={styles.dados}>
                   <h1>Endereço</h1>
@@ -74,21 +64,11 @@ export default function CadastroComplementar() {
                     <input type = "text" placeholder = "Complemento…" />
                     <input type = "text" placeholder = "Ponto de Referência…" />
                   </div>
-                  <div>
-                    <Link to="/">
-                      <button className={styles.btn} type="submit">Salvar Informações</button>
-                    </Link>
-                  </div>
                   <div className={styles.linha} />
                   <div>
                     <h1>Bairro</h1>
                     <input type = "text" placeholder = "Bairro…" />
                     <input type = "text" placeholder = "Zona do Bairro…" />
-                  </div>
-                  <div>
-                    <Link to="/">
-                      <button className={styles.btn} type="submit">Salvar Informações</button>
-                    </Link>
                   </div>
                   <div className={styles.linha} />
                   <div>
@@ -98,11 +78,6 @@ export default function CadastroComplementar() {
                     <input type = "text" placeholder = "Nº DDD…" />
                     <input type = "text" placeholder = "Estado…" />
                     <input type = "text" placeholder = "Sigla do Estado…" />
-                  </div>
-                  <div>
-                    <Link to="/">
-                      <button className={styles.btn} type="submit">Salvar Informações</button>
-                    </Link>
                   </div>
                 </div>
               </div>
