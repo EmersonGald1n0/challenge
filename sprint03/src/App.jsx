@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route, } from 'react-router-dom'
+import { Routes, Route, BrowserRouter, } from 'react-router-dom'
 import Home from './components/pages/home/Home'
 import About from './components/pages/about/About'
 import Contact from './components/pages/contact/Contact'
@@ -21,8 +21,7 @@ import CadastroComplementar from './components/pages/cadastroComplementar/Cadast
 import CadastroComplementar2 from './components/pages/cadastroComplementar2/CadastroComplementar2'
 
 import CadastroVagas from './components/pages/cadastroVagas/CadastroVagas'
-import FormVagas from './components/pages/formVagas/FormVagas'
-import PropsCadastro from './components/pages/propsCadastro/PropsCadastro'
+import VisualizaVagas from './components/pages/visualizaVagas/VisualizaVagas'
 
 import Senha from './components/pages/senha/Senha'
 
@@ -34,6 +33,7 @@ export default function App() {
   
   return (
     <>
+      
       <Navbar />
       
       <Container >
@@ -51,17 +51,16 @@ export default function App() {
           <Route path="/perfilRecrutador" element={<PerfilRecrutador />} />
           <Route path="/perfilCandidato" element={<PerfilCandidato />} />
           <Route path="/cadastroComplementar" element={<CadastroComplementar />} />
-          <Route path="/cadastroComplementar2" element={<CadastroComplementar />} />
+          <Route path="/cadastroComplementar2" element={<CadastroComplementar2 />} />
           <Route path="/senha" element={<Senha />} />
           <Route path="/cadastroVagas" element={<CadastroVagas />} />
-          <Route path="/formVagas" element={<FormVagas />} />
-          <Route path="/propsCadastro" element={<PropsCadastro />} />
-      
+          <Route path="/visualizaVagas" element={<VisualizaVagas />} />
         </Routes>
       
       </Container>
       
       <Footer />
+ 
     </>
   )
 }
