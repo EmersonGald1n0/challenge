@@ -4,19 +4,20 @@ export const DivLista = styled.div`
   width: 100%;
   padding: 20px;
   min-height: 95vh;
-  background-color: #99FCD6;
   display: flex;
   flex-wrap: wrap;
   font-family: 'Trebuchet MS';
 `
 
 export const DivCadastro = styled.div`
-  background-color: rgba(0, 0, 0, 0.40);
+  font-weight: bold;
   color: #fff;
+  background-color: #525252;
+  border-radius: 50px;
   border: 1px solid #333;
-  box-shadow: 5px 5px 5px #333;
+  box-shadow: 5px 5px 5px #084EDC;
   padding: 20px;
-  text-align: center;
+  text-align: left;
   width: 400px;
   height: 300px;
   margin: 10px;
@@ -32,7 +33,7 @@ export const DivForm = styled.div`
     color: #FFF;
   }
   input {
-    width: 50%;
+    width: 100%;
     padding: 5px;
     margin-top: 10px;
   }
@@ -42,9 +43,11 @@ export const DivForm = styled.div`
     background-color: #525252;
     color: #FFF;
     font-weight: bold;
-    padding: 10px 15px;
+    padding: 12px 40px;
     transition: 0.5s;
     cursor: pointer;
+    justify-content: center;
+    border-radius: 15px;
   }
   
   button:hover {

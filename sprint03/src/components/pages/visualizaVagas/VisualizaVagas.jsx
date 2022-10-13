@@ -3,8 +3,8 @@ import { DivLista } from './../../../style/styled'
 import FormVagas from '../formVagas/FormVagas';
 import PropsCadastro from '../propsCadastro/PropsCadastro';
 
-export default function CadastroVagas() {
-  const [cadastroVagas, setCadastroVagas] = useState([
+export default function VisualizaVagas() {
+  const [visualizaVagas, setVisualizaVagas] = useState([
     {
       nomeEmpresa: "ArtLabs",
       cargo: "Desenvolvedor Front-end",
@@ -21,7 +21,7 @@ export default function CadastroVagas() {
   const addCadastro = (e) => {
     e.preventDefault();
     setNovoCadastro({nomeEmpresa:"", cargo:"", cidade:"", bairro:"", formato:"", cargaHoraria:"", salario:"", beneficios:"", obs:""})
-    setCadastroVagas([...cadastroVagas, novoCadastro]);
+    setVisualizaVagas([...visualizaVagas, novoCadastro]);
   }
 
   const [novoCadastro, setNovoCadastro] = useState({nomeEmpresa:"", cargo:"", cidade:"", bairro:"", formato:"", cargaHoraria:"", salario:"", beneficios:"", obs:""});
@@ -57,18 +57,18 @@ export default function CadastroVagas() {
         novoCadastro={novoCadastro}
         funcaoCaptura={captura}
       />
-      {cadastroVagas.map((cad, i) => (
+      {visualizaVagas.map((vag, i) => (
         <PropsCadastro
           key={i}
-          nomeEmpresa = {cad.nomeEmpresa}
-          cargo = {cad.cargo}
-          cidade = {cad.cidade}
-          bairro = {cad.bairro}
-          formato = {cad.formato}
-          cargaHoraria = {cad.cargaHoraria}
-          salario = {cad.salario}
-          beneficios = {cad.beneficios}
-          obs = {cad.obs}
+          nomeEmpresa = {vag.nomeEmpresa}
+          cargo = {vag.cargo}
+          cidade = {vag.cidade}
+          bairro = {vag.bairro}
+          formato = {vag.formato}
+          cargaHoraria = {vag.cargaHoraria}
+          salario = {vag.salario}
+          beneficios = {vag.beneficios}
+          obs = {vag.obs}
         />
       ))}
     </DivLista>
