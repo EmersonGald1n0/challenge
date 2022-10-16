@@ -54,3 +54,19 @@ export const DivForm = styled.div`
     background-color: #084EDC;
   }
 `
+
+  export const DivFiltro = styled.div`
+  width: 70%; margin: auto; font-family: Arial;
+  a{text-decoration: none; padding: 10px 15px; margin-bottom: 20px;
+    background-color: yellowgreen; color: white; display: inline-block;
+  }
+  table {width: 100%; margin: auto;}
+  thead tr {background-color: #084EDC; color: white;}
+  thead tr th{padding: 10px;}
+
+  tbody tr:nth-child(2n+2){background-color: #ccc;}
+  tbody tr td{background-color: none; margin-bottom: 5px; color: #525252; text-align: center; font-weight: bold;}
+  tbody tr td button{color: red; background-color: none; border: none;}
+
+  tfoot tr td{text-align: center; background-color: #084EDC; color:white; font-weight:bold;}
+`
