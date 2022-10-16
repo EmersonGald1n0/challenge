@@ -2,8 +2,25 @@ import React, { useState } from 'react'
 import { DivLista } from './../../../style/styled'
 import FormVagas from '../formVagas/FormVagas';
 import PropsCadastro from '../propsCadastro/PropsCadastro';
+import { useEffect } from 'react';
 
 export default function CadastroVagas() {
+  
+  // const [vagas, setVagas] = useState([]);
+
+  // useEffect(() => {
+  //   fetch('http://localhost:8080/EmpregaMais/rest/vagas')
+  //     .then((resp) => {
+  //       return resp.json();
+  //     })
+  //     .then((resp) => {
+  //       setVagas(resp);
+  //       console.log(resp);
+  //     }).catch((error) => {
+  //       console.log(error)
+  //     })
+  // }, [])
+
   const [cadastroVagas, setCadastroVagas] = useState([
     {
       nomeEmpresa: "ArtLabs",

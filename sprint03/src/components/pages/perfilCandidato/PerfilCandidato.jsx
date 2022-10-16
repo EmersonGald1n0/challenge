@@ -21,11 +21,6 @@ export default function PerfilCandidato() {
           <input type = "text" placeholder = "Nome da Mãe…" />
           <input type = "text" placeholder = "Pretensão Salarial…" />
         </div>
-        <div>
-          <Link to="/">
-            <button className={styles.btn} type="submit">Salvar Informações</button>
-          </Link>
-        </div>
         <div className={styles.linha}></div>
         <div className="wrapper">
           <h3>Status da <span>Escolaridade</span></h3>
@@ -47,11 +42,6 @@ export default function PerfilCandidato() {
             <input type = "text" placeholder = "Nome da Instituição…" />
             <input type = "text" placeholder = "Nome da Graduação…" />
           </div>
-          <div>
-            <Link to="/">
-              <button className={styles.btn} type="submit">Salvar Informações</button>
-            </Link>
-          </div>
           <div className={styles.linha}></div>
           <div className="wrapper">
             <h3>Tipo de <span>Curso</span></h3>
@@ -67,11 +57,6 @@ export default function PerfilCandidato() {
             <div className={styles.form_group}>
               <input className="radio" name="online" id="radio2" type='radio' />
               <label forHtml="radio3">Online</label>
-            </div>
-            <div>
-              <Link to="/">
-                <button className={styles.btn} type="submit">Salvar Informações</button>
-              </Link>
             </div>
             <div className={styles.linha}></div>
           </div>
@@ -100,11 +85,6 @@ export default function PerfilCandidato() {
             <label forHtml="data">Data do Término: </label>
             <input type="date" name="data" id="data"/>
           </div>
-          <div>
-            <Link to="/">
-              <button className={styles.btn} type="submit">Salvar Informações</button>
-            </Link>
-          </div>
           <div className={styles.linha}></div>
           <div>
             <h3><span>Cursos</span></h3>
@@ -120,11 +100,6 @@ export default function PerfilCandidato() {
             <input type="date" name="data" id="data"/>
             <label forHtml="data">Data do Término: </label>
             <input type="date" name="data" id="data"/>
-          </div>
-          <div>
-            <Link to="/">
-              <button className={styles.btn} type="submit">Salvar Informações</button>
-            </Link>
           </div>
           <div className={styles.linha}></div>
           <div className="wrapper">
@@ -154,11 +129,6 @@ export default function PerfilCandidato() {
               <label forHtml="data">Data do Término: </label>
               <input type="date" name="data" id="data"/>
             </div>
-            <div>
-              <Link to="/">
-                <button className={styles.btn} type="submit">Salvar Informações</button>
-              </Link>
-            </div>
             <div className={styles.linha}></div>
             <div>
               <h3>Área de <span>Atuação</span></h3>
@@ -168,11 +138,6 @@ export default function PerfilCandidato() {
               <input type = "text" placeholder = "Descrição do Cargo…" />
               <input type = "text" placeholder = "Descrição dos Benefícios…"/>
               <input type = "text" placeholder = "Carga Horária…" />
-            </div>
-            <div>
-              <Link to="/">
-                <button className={styles.btn} type="submit">Salvar Informações</button>
-              </Link>
             </div>
             <div className={styles.linha}></div>
             <div className="wrapper">
@@ -202,15 +167,13 @@ export default function PerfilCandidato() {
               <label forHtml="data">Data do Término: </label>
               <input type="date" name="data" id="data"/>
             </div>
-            <div>
-              <Link to="/">
-                <button className={styles.btn} type="submit">Salvar Informações</button>
-              </Link>
-            </div>
             <div className={styles.linha}></div>
           </div>
         </div>
         <div className={styles.button1}>
+          <Link to="/">
+            <button className={styles.btn} type="submit">Salvar Informações</button>
+          </Link>
           <Link to="/cadastroComplementar2">
             <button className={styles.btn1} type="submit">Dados Complementares</button>
           </Link>

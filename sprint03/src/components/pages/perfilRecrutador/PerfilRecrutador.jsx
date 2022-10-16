@@ -11,11 +11,12 @@ export default function PerfilRecrutador() {
       <div>
         <img className={styles.img} src={perfilCand} alt="" />
       </div>
-      <div>
-          <Link to="/cadastroVagas">
-            <button className={styles.btn1} type="submit">Vagas de Emprego</button>
-          </Link>
-      </div>
+      <Link to="/cadastroVagas">
+            <button className={styles.btn1} type="submit">Publicar Vagas</button>
+      </Link>
+      <Link to="/filtroCandidato">
+            <button className={styles.btn1} type="submit">Filtrar Candidatos</button>
+      </Link>
       <h3>Dados <span>Empresa</span></h3>
       <br />
       <form action="/pagina-processa-dados-do-form" method="post">
@@ -24,11 +25,6 @@ export default function PerfilRecrutador() {
           <input type="nome" id="nome" placeholder='Nº CNPJ' />
           <input type="nome" id="nome" placeholder='Código da Empresa' />
           <input type="text" placeholder='Descrição do Cargo...'/>
-        </div>
-        <div>
-            <Link to="/">
-              <button className={styles.btn} type="submit">Salvar Informações</button>
-            </Link>
         </div>
         <div className={styles.linha} />
         <div className={styles.processo}>
@@ -43,11 +39,6 @@ export default function PerfilRecrutador() {
           <input type="date" name="data" id="data"/>
           <label forHtml="data">Data do Término: </label>
           <input type="date" name="data" id="data"/>
-          <div>
-              <Link to="/">
-                <button className={styles.btn} type="submit">Salvar Informações</button>
-              </Link>
-          </div>
           <div className={styles.linha} />
           <div className="wrapper">
             <br />
@@ -77,14 +68,12 @@ export default function PerfilRecrutador() {
           <div>
             <textarea name="desc" placeholder='Descrição do Processo Seletivo…' cols="40" rows="10"></textarea>
           </div>
-          <div>
-              <Link to="/">
-                <button className={styles.btn} type="submit">Salvar Informações</button>
-              </Link>
-          </div>
           <div className={styles.linha}></div>
         </div>
-        <div>
+        <div className={styles.button1}>
+          <Link to="/">
+                <button className={styles.btn} type="submit">Salvar Informações</button>
+          </Link>
           <Link to="/cadastroComplementar2">
             <button className={styles.btn1} type="submit">Dados Complementares</button>
           </Link>

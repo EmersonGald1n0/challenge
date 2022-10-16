@@ -42,12 +42,10 @@ export default function Contact() {
           </div>
 
           <div>
-            <button className={styles.btn} type="submit">Enviar</button>
+            <button className={styles.btn} type="submit" onClick={alert("Dados enviados com sucesso!!!")}>Enviar</button>
           </div>
-
         </form>
       </div>
-
     </div>
 
   )
