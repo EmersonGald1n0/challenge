@@ -83,7 +83,10 @@ export default function CadastroComplementar() {
               </div>
           </div>
         </div>
-        <div>
+        <div className={styles.button1}>
+          <Link to="/">
+            <button className={styles.btn} type="submit">Salvar Informações</button>
+          </Link>
           <Link to="/perfilRecrutador">
             <button className={styles.btn} type="submit">Voltar para o perfil</button>
           </Link>

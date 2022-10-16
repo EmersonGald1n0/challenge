@@ -11,6 +11,12 @@ export default function PerfilRecrutador() {
       <div>
         <img className={styles.img} src={perfilCand} alt="" />
       </div>
+      <Link to="/cadastroVagas">
+            <button className={styles.btn1} type="submit">Publicar Vagas</button>
+      </Link>
+      <Link to="/filtroCandidato">
+            <button className={styles.btn1} type="submit">Filtrar Candidatos</button>
+      </Link>
       <h3>Dados <span>Empresa</span></h3>
       <br />
       <form action="/pagina-processa-dados-do-form" method="post">

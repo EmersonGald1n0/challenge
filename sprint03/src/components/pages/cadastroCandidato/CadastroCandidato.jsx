@@ -36,16 +36,9 @@ export default function Cadastro() {
           <input type="text" id="civil" placeholder='Digite o seu estado civil...' />
         </div>
 
-        <div>
-          <input type="text" id="mae" placeholder='Digite o nome da sua Mãe...' />
-        </div>
 
         <div>
-          <input type="text" id="telefone" placeholder='Digite o seu telefone com DDD...' />
-        </div>
-
-        <div>
-          <input type="text" id="salario" placeholder='Digite a sua pretensão salarial...' />
+          <input type="text" id="telefone" placeholder='Digite o seu telefone...' />
         </div>
 
         <div>
@@ -54,13 +47,6 @@ export default function Cadastro() {
 
         <div>
           <input type="text" id="senha" placeholder='Digite a sua senha...' />
-        </div>
-
-        <div>
-          <label htmlFor="" tabIndex={0}>
-            <input type="file" accept='image/*' className='picture__input' />
-            <span className='picture__image'></span>
-          </label>
         </div>
 
         <div className={styles.button1}>
