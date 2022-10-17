@@ -15,3 +15,7 @@ export default function PropsCadastro(props) {
     </DivCadastro>
   );
 }
+
+
+
+

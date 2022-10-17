@@ -1,18 +1,18 @@
 import React from 'react'
 import { DivFiltro } from './../../../style/styled'
 import styles from './FiltroCandidato.module.css'
+import { Link } from 'react-router-dom'
 
 export default function FiltroCandidato() {
+
   return (
     <div>
       <DivFiltro>
         <div className={styles.lista}>
-          <legend>Linguagens de interesse</legend>
-          <input
-            type="checkbox"
+          <legend><span>Linguagens</span></legend>
+          <input type="checkbox" value={'ReactJS'} 
             name="linguagens"
             id="ling01"
-            value={'ReactJS'}
           />
           <label htmlFor="ling01">ReactJS</label>
           <input type="checkbox" name="linguagens" id="ling02" value={'Java'} />
@@ -53,7 +53,7 @@ export default function FiltroCandidato() {
         <br />
         <div className={styles.linha} />
         <div>
-          <legend>Sexo</legend>
+          <legend><span>Sexo</span></legend>
           <input type="checkbox" name="genero" id="gen01" value={'Masculino'} />
           <label htmlFor="gen01">Masculino</label>
           <input type="checkbox" name="genero" id="gen02" value={'Feminino'} />
@@ -66,7 +66,7 @@ export default function FiltroCandidato() {
         <br />
         <div className={styles.linha} />
         <div>
-          <legend>Pretensão Salarial</legend>
+          <legend>Pretensão <span>Salarial</span></legend>
           <input type="checkbox" name="salario" id="sal01" value={'1000'} />
           <label htmlFor="sal01">R$1.300,00</label>
           <input type="checkbox" name="salario" id="sal02" value={'2000'} />
@@ -81,7 +81,7 @@ export default function FiltroCandidato() {
         <br />
         <div className={styles.linha} />
         <div>
-          <legend>Formação Acadêmica</legend>
+          <legend>Formação <span>Acadêmica</span></legend>
           <input
             type="checkbox"
             name="formacao"
@@ -109,8 +109,12 @@ export default function FiltroCandidato() {
           <label htmlFor="sal05">Outros</label>
         </div>
         <br />
+        <br />
+        <div className={styles.button1}>
+          <button className={styles.btn} type='submit'>Aplicar filtros</button>
+        </div>
         <div className={styles.linha} />
-        <h1>Filtros</h1>
+        <h1><span>Filtros</span></h1>
         <table>
           <thead>
             <tr>
@@ -305,6 +309,8 @@ export default function FiltroCandidato() {
             </tr>
           </tfoot>
         </table>
+
+      
       </DivFiltro>
     </div>
   )

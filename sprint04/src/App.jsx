@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route, BrowserRouter } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Home from './components/pages/home/Home'
 import About from './components/pages/about/About'
 import Contact from './components/pages/contact/Contact'
@@ -26,12 +26,7 @@ import VisualizaVagas from './components/pages/visualizaVagas/VisualizaVagas'
 
 import Senha from './components/pages/senha/Senha'
 
-
-
 import FiltroCandidato from './components/pages/filtroCandidato/FiltroCandidato'
-
-import API from './components/pages/testeAPI/API'
-
 import Usuario from './components/pages/usuario/Usuario'
 
 export default function App() {
@@ -65,7 +60,6 @@ export default function App() {
           <Route path="/cadastroVagas" element={<CadastroVagas />} />
           <Route path="/visualizaVagas" element={<VisualizaVagas />} />
           <Route path="/filtroCandidato" element={<FiltroCandidato />} />
-          <Route path="/api" element={<API />} />
         </Routes>
       </Container>
       <Footer />

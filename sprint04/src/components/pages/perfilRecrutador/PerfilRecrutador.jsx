@@ -71,7 +71,7 @@ export default function PerfilRecrutador() {
           <div className={styles.linha}></div>
         </div>
         <div className={styles.button1}>
-          <Link to="/">
+          <Link to="/perfilRecrutador">
                 <button className={styles.btn} type="submit">Salvar Informações</button>
           </Link>
           <Link to="/cadastroComplementar2">
