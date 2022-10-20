@@ -1,2 +1,2 @@
-# challenge
-# Início das aplicações em RWD
+CHALLENGE IBM  - EMPREGA+ - Consultoria ArtLabs ©
+Criar uma solução tecnológica onde estudantes e candidatos a vagas no geral possam ter um “termômetro” do seu perfil em relação ao mercado, com base em um “match” entre suas soft e hard skills e informações de banco de dados de agências de recrutamento. Desta forma, os candidatos terão uma maior visibilidade de vagas com potencial de aprovação e as empresas otimizarão seu processo de contratação, melhorandoa experiência para ambos os públicos.
