@@ -12,11 +12,12 @@ export default function About() {
         <div>
           <img className={styles.quem_somos} src={quem_somos} alt="imagem da IBM" />
         </div>
+        
 
         <div className={styles.text}>
 
           <h1>QUEM SOMOS</h1>
-
+          <div className={styles.linha} />
           <p>A <span className={styles.span}>Emprega+</span> em parceria com a <span className={styles.span}>IBM, </span>
             multinacional presente em centenas de países,
             pioneira no desenvolvimento de tecnologias digitais, como o consagrado Watson que é

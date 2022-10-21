@@ -1,7 +1,7 @@
 .about {
   width: 75%;
   height: 80vh;
-  padding: 8em;
+  padding: 5em;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -12,19 +12,21 @@
 }
 
 .text h1 {
-  text-align: right;
+  text-align: center;
   padding: 12px;
-  font-size: 1.6em;
+  font-size: 2em;
   font-weight: bold;
   flex-wrap: wrap-reverse;
   color: #084EDC;
+
 }
 
 .quem_somos {
   padding: 10px;
   width: 70vh;
-  height: 60vh;
+  height: 65vh;
   margin-right: 20px;
+  border-radius: 100px;
 }
 
 .container {
@@ -34,12 +36,21 @@
 
 .text p {
   padding: 12px;
-  font-weight: bold;
-  font-size: 1.2em;
+  /* font-weight: bold; */
+  font-size: 1.3em;
   color: #525252;
-  text-align: right;
+  text-align: center;
+
 }
 
 .span {
   color: #084EDC;
+}
+
+.linha {
+  width: 15%;
+  height: 1px;
+  background-color: #084EDC;
+  margin: 10px auto;
+  
 }

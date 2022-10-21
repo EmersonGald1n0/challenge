@@ -17,7 +17,8 @@ export default function Servicos() {
 
       <div className={styles.servicos}>
 
-        <h1 className={styles.title1}>CONHEÇA ALGUMAS DAS <span className={styles.span}>ÁREAS DE ATUAÇÃO</span> DISPONÍVEIS</h1>
+        <h1 className={styles.title1}>CONHEÇA ALGUMAS DAS <span className={styles.span}>ÁREAS DE ATUAÇÃO</span> DISPONÍVEIS...</h1>
+        <div className={styles.linha} />
 
         <div className={styles.bloco1}>
           <figcaption>
@@ -73,13 +74,14 @@ export default function Servicos() {
 
           </figcaption>
         </div>
+        <div className={styles.linha2} />
 
         <h1 className={styles.title2}>ENTRE OUTRAS <span className={styles.span}>OPORTUNIDADES INCRÍVEIS</span> PARA VOCÊ!!!</h1>
 
         <div className={styles.button1}>
-        <Link to="/cadastro">
+          <Link to="/cadastro">
             <button className={styles.btn1} type="submit">INSCREVA-SE JÁ!!!</button>
-      </Link>
+          </Link>
         </div>
       </div>
     </div>

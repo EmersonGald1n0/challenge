@@ -14,16 +14,16 @@ export default function Home() {
 
         <Carousel>
 
-          <Item><img src={home3} alt="Vagas de Emprego" /> <h1 className='text1'>São + de 1.500 vagas de emprego disponíveis</h1>
-            <h1 className='text2'>Se inscreva e faça parte do nosso time de colaboradores</h1>
+          <Item><img src={home3} alt="Vagas de Emprego" /> <h1 className='text1'>São + de <span>1.500 vagas</span> de emprego disponíveis</h1>
+            <h1 className='text2'>Se inscreva e faça parte do nosso time de <span>colaboradores</span></h1>
           </Item>
 
-          <Item><img src={home2} alt="Vagas de Emprego" /><h1 className='text1'>São diversas áreas de atuação</h1>
-            <h1 className='text2'>Participe de nossos processos seletivos</h1>
+          <Item><img src={home2} alt="Vagas de Emprego" /><h1 className='text1'>São <span>diversas áreas</span> de atuação</h1>
+            <h1 className='text2'>Participe de nossos <span>processos seletivos</span></h1>
           </Item>
 
-          <Item><img src={home1} alt="Vagas de Emprego" /><h1 className='text1'>Ainda não se inscreveu?</h1>
-            <h1 className='text2'>Venha fazer parte da nossa história</h1>
+          <Item><img src={home1} alt="Vagas de Emprego" /><h1 className='text1'>Ainda não <span>se inscreveu</span>?</h1>
+            <h1 className='text2'>Venha fazer parte da <span>nossa história</span></h1>
           </Item>
 
         </Carousel>

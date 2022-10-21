@@ -164,7 +164,7 @@ export default function Cadastro() {
 
         <div className={styles.button1}>
           {/* <Link to="/perfilCandidato"> */}
-          <button className={styles.btn} type="submit">
+          <button className={styles.btn1} type="submit">
             Cadastrar
           </button>
           <button className={styles.btn} type="reset">

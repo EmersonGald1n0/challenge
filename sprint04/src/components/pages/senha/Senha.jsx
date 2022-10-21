@@ -18,19 +18,19 @@ export default function Cadastro() {
       <form action="/pagina-processa-dados-do-form" method="post">
 
         <div>
-          <input type="nome" id="nome" placeholder='Digite o seu login...' />
+          <input type="text" id="nome" placeholder='Digite o seu login...' />
         </div>
 
         <div>
-          <input type="nome" id="nome" placeholder='Digite a sua senha...' />
+          <input type="password" id="nome" placeholder='Digite a sua senha...' />
         </div>
 
         <div>
-          <input type="nome" id="nome" placeholder='Digite novamente a sua senha...' />
+          <input type="password" id="nome" placeholder='Digite novamente a sua senha...' />
         </div>
 
         <div>
-          <input type="nome" id="nome" placeholder='Digite alguma dica de senha...' />
+          <input type="text" id="nome" placeholder='Digite alguma dica de senha...' />
         </div>
 
         <div className={styles.button1}>

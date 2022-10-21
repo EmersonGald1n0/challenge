@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styles from './Navbar.module.css'
-import './navbar.css'
 import logo from '../../../img/logo.png'
 import login from '../../../img/login.png'
 

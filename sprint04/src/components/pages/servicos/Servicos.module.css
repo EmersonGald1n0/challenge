@@ -26,7 +26,8 @@
   padding: 8vh;
   font-size: 4vh;
   font-weight: bold;
-  margin-top: -15vh;
+  margin-top: -18vh;
+  margin-bottom: -5vh;
 }
 
 .servicos img {
@@ -40,6 +41,7 @@
 
 .serv1 {
   float: left;
+  border-radius: 50px;
 }
 
 .text1 {
@@ -47,12 +49,12 @@
   float: left;
   margin-top: 9%;
   margin-left: 142px;
-  font-weight: bold;
   font-size: 1.1em;
 }
 
 .serv2 {
   float: right;
+  border-radius: 50px;
 }
 
 .text2 {
@@ -60,12 +62,12 @@
   float: right;
   margin-top: 9%;
   margin-right: 152px;
-  font-weight: bold;
   font-size: 1.1em;
 }
 
 .serv3 {
   float: left;
+  border-radius: 50px;
 }
 
 .text3 {
@@ -73,13 +75,12 @@
   float: right;
   margin-top: 9%;
   margin-left: 80px;
-  font-weight: bold;
   font-size: 1.1em;
 }
 
 .serv4 {
   float: right;
-
+  border-radius: 50px;
 }
 
 .text4 {
@@ -87,13 +88,12 @@
   float: right;
   margin-top: 9%;
   margin-right: 80px;
-  font-weight: bold;
   font-size: 1.1em;
 }
 
 .serv5 {
   float: left;
-
+  border-radius: 50px;
 }
 
 .text5 {
@@ -101,21 +101,19 @@
   float: right;
   margin-top: 9%;
   margin-left: 20px;
-  font-weight: bold;
   font-size: 1.1em;
   
 }
 
 .serv6 {
   float: right;
-
+  border-radius: 50px;
 }
 
 .text6 {
   float: right;
   margin-top: 9%;
   margin-right: 63px;
-  font-weight: bold;
   font-size: 1.1em;
 }
 
@@ -127,7 +125,8 @@
 }
 
 .button1 {
-  padding: 110px 0px 0px 0px;
+  padding: 100px;
+  margin-bottom: -180px;
   
 }
 
@@ -147,5 +146,24 @@
 
 .btn1:hover {
   background-color: #525252;
+}
+
+.linha {
+  width: 25%;
+  height: 1px;
+  background-color: #084EDC;
+  margin: 0 auto;
+  margin-bottom: 8vh;
+  margin-top: 2.5vh;
+
+}
+
+.linha2 {
+  width: 25%;
+  height: 1px;
+  background-color: #084EDC;
+  margin: 0 auto;
+  margin-top: 8.5vh;
+
 }
 

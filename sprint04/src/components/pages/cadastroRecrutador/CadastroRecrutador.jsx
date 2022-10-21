@@ -48,13 +48,18 @@ export default function Cadastro() {
         </div>
 
         <div>
-          <input type="text" id="senha" placeholder='Digite a sua senha...' />
+          <input type="password" id="senha" placeholder='Digite a sua senha...' />
         </div>
 
         <div className={styles.button1}>
-          <Link to="/perfilRecrutador">
-            <button className={styles.btn} type="submit">Cadastrar</button>
-          </Link>
+          {/* <Link to="/perfilCandidato"> */}
+          <button className={styles.btn1} type="submit">
+            Cadastrar
+          </button>
+          <button className={styles.btn} type="reset">
+            Limpar
+          </button>
+          {/* </Link> */}
         </div>
       </form>
     </div>
