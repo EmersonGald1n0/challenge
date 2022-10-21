@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './CadastroComplementar2.module.css'
+import styles from './CadastroComplementar.module.css'
 import { Link } from 'react-router-dom'
 
 
@@ -84,10 +84,10 @@ export default function CadastroComplementar() {
           </div>
         </div>
         <div className={styles.button1}>
-          <Link to="/">
+          <Link to="/perfilCandidato">
             <button className={styles.btn} type="submit">Salvar Informações</button>
           </Link>
-          <Link to="/perfilRecrutador">
+          <Link to="/perfilCandidato">
             <button className={styles.btn} type="submit">Voltar para o perfil</button>
           </Link>
         </div>

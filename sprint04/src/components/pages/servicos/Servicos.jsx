@@ -77,9 +77,9 @@ export default function Servicos() {
         <h1 className={styles.title2}>ENTRE OUTRAS <span className={styles.span}>OPORTUNIDADES INCRÍVEIS</span> PARA VOCÊ!!!</h1>
 
         <div className={styles.button1}>
-          <Link to="/cadastro">
-            <button className={styles.btn} type="submit">INSCREVA-SE JÁ!!!</button>
-          </Link>
+        <Link to="/cadastro">
+            <button className={styles.btn1} type="submit">INSCREVA-SE JÁ!!!</button>
+      </Link>
         </div>
       </div>
     </div>
