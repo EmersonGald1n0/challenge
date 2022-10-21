@@ -13,7 +13,7 @@ export default function Cadastro() {
         </div>
       
       <h1>É NOVO POR AQUI?</h1>
-
+      <h1>DESCRITIVO P/ USUARIOS</h1>
       <h3>Crie uma conta e tenha acesso</h3>
       <h3>a milhares de vagas de empregos</h3>
 
