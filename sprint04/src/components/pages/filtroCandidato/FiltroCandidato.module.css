@@ -1,5 +1,9 @@
+/* input {
+  display: flex;
+
+} */
+
 label {
- 
   padding: 0px 0px 0px 0px;
   justify-content: space-between;
   font-size: 1em;
@@ -8,53 +12,53 @@ label {
   color: #525252;
 }
 
-legend {
+h1 {
   margin: 20px 0px 50px;
   margin-bottom: 20px;
-  font-size: 2em;
+  font-size: 3vh;
   font-weight: bold;
   color: #525252;
   text-align: center;
-  padding: 50px;
-  
+  padding: 1.5vh;
+  text-shadow: #525252 0.04em 0.03em 0.05em;
 }
 
 .linha {
   width: 100%;
   height: 1px;
-  background-color: #084EDC;
+  background-color: #084edc;
   margin: 50px 0;
 }
 
-h1 {
-  text-align: center;
-  color: #525252;
-  font-size: 2em;
-  font-weight: bold;
-}
-
-.button1{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-}
-
-.btn {
-  background-color: #525252;
-  color: #FFF;
-  padding: 0.5em 1em;
+.btn1 {
+  background-color: #084edc;
+  width: 11vw;
+  height: 5vh;
+  color: #fff;
   text-decoration: none;
   transition: 0.5s;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 100px;
   font-weight: bold;
-  margin-top: 40px;
-  flex-direction: column;
-  
+  font-size: 1.5vh;
+  margin: auto;
+
+  box-shadow: 0 0 3px #525252;
 }
 
-.btn:hover {
-  background-color: #084EDC;
+.btn1:hover {
+  background-color: #525252;
 }
 
+.linha {
+  width: 45vw;
+  height: 0.1vh;
+  background-color: #084edc;
+  margin: 0 auto;
+  margin-top: 6vh;
+}
+
+.cadastro_container input {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}

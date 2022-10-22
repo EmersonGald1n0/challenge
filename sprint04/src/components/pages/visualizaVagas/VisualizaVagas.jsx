@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
-import { DivLista } from './../../../style/styled'
-import FormVagas from '../formVagas/FormVagas';
-import PropsVisualiza from '../propsVisualiza/PropsVisualiza';
+import React, { useState } from "react";
+import { DivLista } from "./../../../style/styled";
+import PropsVisualiza from "../propsVisualiza/PropsVisualiza";
 
 export default function VisualizaVagas() {
   const [visualizaVagas, setVisualizaVagas] = useState([
@@ -47,7 +46,8 @@ export default function VisualizaVagas() {
       formato: "Home Office",
       cargaHoraria: "60 horas",
       salario: "R$ 6.500,00",
-      beneficios: "Vale Refeição, Plano de Saúde, Plano Odontológico, Auxílio Creche",
+      beneficios:
+        "Vale Refeição, Plano de Saúde, Plano Odontológico, Auxílio Creche",
       obs: "Experiência com React, Oracle, Java, JavaScript",
     },
 
@@ -59,7 +59,8 @@ export default function VisualizaVagas() {
       formato: "Hibrido",
       cargaHoraria: "70 horas",
       salario: "R$ 15.200,00",
-      beneficios: "Vale Transporte, Vale Refeição, Plano de Saúde, Plano Odontológico, Auxílio Creche, Auxílio Home Office",
+      beneficios:
+        "Vale Transporte, Vale Refeição, Plano de Saúde, Plano Odontológico, Auxílio Creche, Auxílio Home Office",
       obs: "Experiência com React, NodeJS, MongoDB",
     },
 
@@ -71,7 +72,8 @@ export default function VisualizaVagas() {
       formato: "Hibrido",
       cargaHoraria: "60 horas",
       salario: "R$ 8.000,00",
-      beneficios: "Vale Transporte, Vale Refeição, Plano de Saúde, Plano Odontológico, Auxílio Creche, Auxílio Home Office",
+      beneficios:
+        "Vale Transporte, Vale Refeição, Plano de Saúde, Plano Odontológico, Auxílio Creche, Auxílio Home Office",
       obs: "Experiência com Java, Oracle, SQL",
     },
 
@@ -95,66 +97,77 @@ export default function VisualizaVagas() {
       salario: "R$ 9.500,00",
       beneficios: "Vale Transporte, Vale Refeição, Plano de Saúde",
       obs: "Experiência com Scrum, Kanban, Agile",
-    }
-
-
-
+    },
   ]);
 
   const addCadastro = (e) => {
     e.preventDefault();
-    setNovoCadastro({nomeEmpresa:"", cargo:"", cidade:"", bairro:"", formato:"", cargaHoraria:"", salario:"", beneficios:"", obs:""})
+    setNovoCadastro({
+      nomeEmpresa: "",
+      cargo: "",
+      cidade: "",
+      bairro: "",
+      formato: "",
+      cargaHoraria: "",
+      salario: "",
+      beneficios: "",
+      obs: "",
+    });
     setVisualizaVagas([...visualizaVagas, novoCadastro]);
-  }
+  };
 
-  const [novoCadastro, setNovoCadastro] = useState({nomeEmpresa:"", cargo:"", cidade:"", bairro:"", formato:"", cargaHoraria:"", salario:"", beneficios:"", obs:""});
+  const [novoCadastro, setNovoCadastro] = useState({
+    nomeEmpresa: "",
+    cargo: "",
+    cidade: "",
+    bairro: "",
+    formato: "",
+    cargaHoraria: "",
+    salario: "",
+    beneficios: "",
+    obs: "",
+  });
 
   const captura = (e) => {
-    const {name, value} = e.target;
+    const { name, value } = e.target;
 
-    if(name === "nomeEmpresa") {
-      setNovoCadastro({...novoCadastro, nomeEmpresa: value});
-    } else if(name === "cargo") {
-      setNovoCadastro({...novoCadastro, cargo: value});
+    if (name === "nomeEmpresa") {
+      setNovoCadastro({ ...novoCadastro, nomeEmpresa: value });
+    } else if (name === "cargo") {
+      setNovoCadastro({ ...novoCadastro, cargo: value });
     } else if (name === "cidade") {
-      setNovoCadastro({...novoCadastro, cidade: value});
+      setNovoCadastro({ ...novoCadastro, cidade: value });
     } else if (name === "bairro") {
-      setNovoCadastro({...novoCadastro, bairro: value});
+      setNovoCadastro({ ...novoCadastro, bairro: value });
     } else if (name === "formato") {
-      setNovoCadastro({...novoCadastro, formato: value});
+      setNovoCadastro({ ...novoCadastro, formato: value });
     } else if (name === "cargaHoraria") {
-      setNovoCadastro({...novoCadastro, cargaHoraria: value});
+      setNovoCadastro({ ...novoCadastro, cargaHoraria: value });
     } else if (name === "salario") {
-      setNovoCadastro({...novoCadastro, salario: value});
+      setNovoCadastro({ ...novoCadastro, salario: value });
     } else if (name === "beneficios") {
-      setNovoCadastro({...novoCadastro, beneficios: value});
+      setNovoCadastro({ ...novoCadastro, beneficios: value });
     } else if (name === "obs") {
-      setNovoCadastro({...novoCadastro, obs: value});
+      setNovoCadastro({ ...novoCadastro, obs: value });
     }
-  }
+  };
 
   return (
     <DivLista>
-      {/* <FormVagas
-        funcaoAddCadastro={addCadastro}
-        novoCadastro={novoCadastro}
-        funcaoCaptura={captura}
-      /> */}
       {visualizaVagas.map((vag, i) => (
         <PropsVisualiza
           key={i}
-          nomeEmpresa = {vag.nomeEmpresa}
-          cargo = {vag.cargo}
-          cidade = {vag.cidade}
-          bairro = {vag.bairro}
-          formato = {vag.formato}
-          cargaHoraria = {vag.cargaHoraria}
-          salario = {vag.salario}
-          beneficios = {vag.beneficios}
-          obs = {vag.obs}
+          nomeEmpresa={vag.nomeEmpresa}
+          cargo={vag.cargo}
+          cidade={vag.cidade}
+          bairro={vag.bairro}
+          formato={vag.formato}
+          cargaHoraria={vag.cargaHoraria}
+          salario={vag.salario}
+          beneficios={vag.beneficios}
+          obs={vag.obs}
         />
       ))}
     </DivLista>
   );
-
 }

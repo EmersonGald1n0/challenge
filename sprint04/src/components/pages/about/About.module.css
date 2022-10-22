@@ -7,19 +7,16 @@
   margin: 0 auto;
 }
 
-.min-height {
-  min-height: 80%;
-}
-
 .text h1 {
   text-align: center;
-  padding: 12px;
-  font-size: 2em;
+  padding: 20px;
+  font-size:4vh;
   font-weight: bold;
   flex-wrap: wrap-reverse;
   color: #084EDC;
-
+  text-shadow: #525252 0.05em 0.04em 0.05em;
 }
+
 
 .quem_somos {
   padding: 10px;
@@ -27,6 +24,7 @@
   height: 65vh;
   margin-right: 20px;
   border-radius: 100px;
+  box-shadow: 0 0 10px black;
 }
 
 .container {
@@ -36,8 +34,7 @@
 
 .text p {
   padding: 12px;
-  /* font-weight: bold; */
-  font-size: 1.3em;
+  font-size:2vh;
   color: #525252;
   text-align: center;
 
@@ -48,9 +45,9 @@
 }
 
 .linha {
-  width: 15%;
-  height: 1px;
+  width: 15vh;
+  height: 0.1vh;
   background-color: #084EDC;
-  margin: 10px auto;
+  margin: 20px auto;
   
 }
