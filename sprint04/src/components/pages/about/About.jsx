@@ -12,24 +12,25 @@ export default function About() {
         <div>
           <img className={styles.quem_somos} src={quem_somos} alt="imagem da IBM" />
         </div>
+        
 
         <div className={styles.text}>
 
           <h1>QUEM SOMOS</h1>
-
-          <p>A <span className={styles.span}>Emprega+</span> em parceria com a <span className={styles.span}>IBM, </span>
+          <div className={styles.linha} />
+          <p>A <span>Emprega+</span> em parceria com a <span>IBM, </span>
             multinacional presente em centenas de países,
-            pioneira no desenvolvimento de tecnologias digitais, como o consagrado Watson que é
+            pioneira no desenvolvimento de tecnologias digitais, como o consagrado <span>Watson</span> que é
             referência na aplicação de conceitos de Inteligência Artificial e de Machine Learning,
             oferece Consultorias Corporativas Especializadas em promover o crescimento e integração
             digital em centenas de companhias.
           </p>
 
-          <p>Agora abre oportunidades para você que deseja ser um profissional da área de
+          <p>Agora <span>abre oportunidades</span> para você que deseja ser um profissional da área de
             Tecnologia.
           </p>
 
-          <p>Inscreva - se e participe dos nossos processos seletivos, tenha a possibilidade de fazer
+          <p>Inscreva-se e <span>participe dos nossos processos seletivos</span>, tenha a possibilidade de fazer
             parte do nosso time de colaboradores que é referência mundial no segmento de soluções
             tecnológicas.
           </p >

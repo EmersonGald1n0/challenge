@@ -13,24 +13,24 @@ export default function Cadastro() {
           <img className={styles.img1} src={redefinir} alt="contato"  />
         </div>
       
-      <h3>Aqui você irá <span>redefinir a sua Senha...</span></h3>
+      <h1>Aqui você irá <span>redefinir a sua Senha...</span></h1>
 
       <form action="/pagina-processa-dados-do-form" method="post">
 
         <div>
-          <input type="nome" id="nome" placeholder='Digite o seu login...' />
+          <input type="text" id="nome" placeholder='Email...' />
         </div>
 
         <div>
-          <input type="nome" id="nome" placeholder='Digite a sua senha...' />
+          <input type="password" id="nome" placeholder='Nova Senha...' />
         </div>
 
         <div>
-          <input type="nome" id="nome" placeholder='Digite novamente a sua senha...' />
+          <input type="password" id="nome" placeholder='Repetir Nova Senha...' />
         </div>
 
         <div>
-          <input type="nome" id="nome" placeholder='Digite alguma dica de senha...' />
+          <input type="text" id="nome" placeholder='Dica para Senha...' />
         </div>
 
         <div className={styles.button1}>

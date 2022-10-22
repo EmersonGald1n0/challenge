@@ -9,38 +9,47 @@
   font-weight: bold;
 }
 
+
 .cadastro_container h1 {
   color: #525252;
   font-weight: bold;
-  font-size: 2em;
-  padding: 10px;
+  font-size: 2.5vh;
+  padding: 1.5vh;
+  text-shadow: #525252 0.04em 0.03em 0.05em;
 }
 
-.cadastro_container h3 {
-  color: #525252;
-  font-weight: bold;
-  font-size: 1.4em;
+.cadastro_container input {
+  width: 25vh;
+  height: 1.5vw;
+  border-radius: 0.5vh;
+  border-color: #084edc;
+  text-align: center;
+  padding: 1em;
+  margin-top: 1vh;
+  box-shadow: 0 0 3px #525252;
 }
 
 .btn {
-  background-color: #525252;
-  color: #FFF;
-  padding: 0.5em 1em;
+  background-color: #084edc;
+  color: #fff;
+  margin-top: 3vh;
+  padding: 1vh 1vw;
   text-decoration: none;
   transition: 0.5s;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 30px;
   font-weight: bold;
-  margin-top: 40px;
+  font-size: 1.5vh;
+  box-shadow: 0 0 3px #525252;
 }
 
 .btn:hover {
-  background-color: #084EDC;
+  background-color: #525252;
 }
 
 .img1 {
-  width: 40%;
-  margin-bottom: 15px;
+  width: 11vw;
+  margin-bottom: 1vh;
 }
 
 

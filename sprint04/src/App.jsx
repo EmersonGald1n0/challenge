@@ -13,7 +13,6 @@ import Footer from './components/pages/footer/Footer'
 
 import CadastroRecrutador from './components/pages/cadastroRecrutador/CadastroRecrutador'
 import CadastroCandidato from './components/pages/cadastroCandidato/CadastroCandidato'
-import ListaUsuario from './components/pages/usuario/ListaUsuario'
 
 import PerfilRecrutador from './components/pages/perfilRecrutador/PerfilRecrutador'
 import PerfilCandidato from './components/pages/perfilCandidato/PerfilCandidato'
@@ -27,7 +26,7 @@ import VisualizaVagas from './components/pages/visualizaVagas/VisualizaVagas'
 import Senha from './components/pages/senha/Senha'
 
 import FiltroCandidato from './components/pages/filtroCandidato/FiltroCandidato'
-import Usuario from './components/pages/usuario/Usuario'
+
 
 export default function App() {
   return (
@@ -43,8 +42,6 @@ export default function App() {
           <Route path="/servicos" element={<Servicos />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/cadastroCandidato" element={<CadastroCandidato />} />
-          <Route path="/usuario" element={<Usuario />} />
-          <Route path="/listaUsuario" element={<ListaUsuario />} />
           <Route path="/cadastroRecrutador" element={<CadastroRecrutador />} />
           <Route path="/perfilRecrutador" element={<PerfilRecrutador />} />
           <Route path="/perfilCandidato" element={<PerfilCandidato />} />

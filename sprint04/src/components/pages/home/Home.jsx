@@ -14,16 +14,16 @@ export default function Home() {
 
         <Carousel>
 
-          <Item><img src={home3} alt="Vagas de Emprego" /> <h1 className='text1'>São + de 1.500 vagas de emprego disponíveis</h1>
-            <h1 className='text2'>Se inscreva e faça parte do nosso time de colaboradores</h1>
+          <Item><img src={home3} alt="Vagas de Emprego" /> <h1 className='text1'>São + de <span>1.500 Vagas</span> de Emprego Disponíveis</h1>
+            <h1 className='text2'>Se Inscreva e faça parte do nosso Time de <span>Colaboradores</span> !!</h1>
           </Item>
 
-          <Item><img src={home2} alt="Vagas de Emprego" /><h1 className='text1'>São diversas áreas de atuação</h1>
-            <h1 className='text2'>Participe de nossos processos seletivos</h1>
+          <Item><img src={home2} alt="Vagas de Emprego" /><h1 className='text1'>São <span>Diversas Áreas</span> de Atuação</h1>
+            <h1 className='text2'>Participe de nossos <span>Processos Seletivos</span> !!</h1>
           </Item>
 
-          <Item><img src={home1} alt="Vagas de Emprego" /><h1 className='text1'>Ainda não se inscreveu?</h1>
-            <h1 className='text2'>Venha fazer parte da nossa história</h1>
+          <Item><img src={home1} alt="Vagas de Emprego" /><h1 className='text1'>Ainda não <span>se Inscreveu</span>?</h1>
+            <h1 className='text2'>Venha fazer Parte da <span>Nossa História</span> !!</h1>
           </Item>
 
         </Carousel>
@@ -32,78 +32,3 @@ export default function Home() {
     </>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React from 'react'
-// import home1 from '../../../img/home1.jpg'
-// import home2 from '../../../img/home2.jpg'
-// import home3 from '../../../img/home3.jpg'
-// import styles from './Home.module.css'
-
-
-
-// export default function Home() {
-
-//   return (
-
-//     <section className={styles.home_container}>
-//       <h1 className={styles.text1}>São + de 1.500 vagas de emprego disponíveis</h1>
-//       <figcaption>
-//         <img className={styles.home3} src={home3} alt="" />
-//         <h1> Se inscreva e faça parte do nosso time de colaboradores</h1>
-//       </figcaption>
-//       <h1>São diversas áreas de atuação</h1>
-//       <figcaption>
-//         <img className={styles.home2} src={home2} alt="" />
-//         <h1>Participe de nossos processos seletivos</h1>
-//       </figcaption>
-//       <h1>Ainda não se inscreveu?</h1>
-//       <figcaption>
-//         <img className={styles.home1} src={home1} alt="" />
-//         <h1>Venha fazer parte da nossa história</h1>
-//       </figcaption>
-//     </section>
-
-//   )
-// }

@@ -1,5 +1,5 @@
 .container {
-  width: 75rem;
+  width: 62vw;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -9,114 +9,106 @@
 
 .servicos {
   text-align: center;
-  width: 100%;
+  width: 100vw;
   display: flex;
-  flex-direction: column; 
-  padding: 8em;
+  flex-direction: column;
+  padding: 12vh;
   color: #525252;
 }
 
-.bloco1 {
-  display: flex;
-  float: left;
-}
-
 .title1 {
-  
-  padding: 8vh;
   font-size: 4vh;
   font-weight: bold;
-  margin-top: -15vh;
+  margin-bottom: 4vh;
+  margin-top: -7vh;
+  text-shadow: #525252 0.04em 0.03em 0.05em;
 }
 
 .servicos img {
-  width: 400px;
-  height: 200px;
+  width: 22.5vw;
+  height: 25vh;
 }
 
 .span {
-  color: #084EDC;
+  color: #084edc;
 }
 
 .serv1 {
   float: left;
+  border-radius: 50px;
+  box-shadow: 0 0 15px black;
 }
 
 .text1 {
-  
   float: left;
-  margin-top: 9%;
-  margin-left: 142px;
-  font-weight: bold;
-  font-size: 1.1em;
+  margin-top: 10%;
+  margin-left: 13vh;
+  font-size: 1.80vh;
 }
 
 .serv2 {
   float: right;
+  border-radius: 50px;
+  box-shadow: 0 0 15px black;
 }
 
 .text2 {
-  padding: 0px;
   float: right;
-  margin-top: 9%;
-  margin-right: 152px;
-  font-weight: bold;
-  font-size: 1.1em;
+  margin-top: 10%;
+  margin-right: 13vh;
+  font-size: 1.80vh;
 }
 
 .serv3 {
   float: left;
+  border-radius: 50px;
+  box-shadow: 0 0 15px black;
 }
 
 .text3 {
-  padding: 0px;
   float: right;
-  margin-top: 9%;
-  margin-left: 80px;
-  font-weight: bold;
-  font-size: 1.1em;
+  margin-top: 10%;
+  margin-left: 3vh;
+  font-size: 1.80vh;
 }
 
 .serv4 {
   float: right;
-
+  border-radius: 50px;
+  box-shadow: 0 0 15px black;
 }
 
 .text4 {
-  padding: 0px;
   float: right;
-  margin-top: 9%;
-  margin-right: 80px;
-  font-weight: bold;
-  font-size: 1.1em;
+  margin-top: 10%;
+  margin-right: 10vh;
+  font-size: 1.80vh;
 }
 
 .serv5 {
   float: left;
-
+  border-radius: 50px;
+  box-shadow: 0 0 15px black;
 }
 
 .text5 {
-  padding: 0px;
   float: right;
-  margin-top: 9%;
-  margin-left: 20px;
-  font-weight: bold;
-  font-size: 1.1em;
-  
+  margin-top: 10%;
+  margin-left: 4vh;
+  font-size: 1.80vh;
 }
 
 .serv6 {
   float: right;
-
+  border-radius: 50px;
+  box-shadow: 0 0 10px black;
 }
 
 .text6 {
   float: right;
-  margin-top: 9%;
-  margin-right: 63px;
-  font-weight: bold;
-  font-size: 1.1em;
+  margin-top: 10%;
+  margin-right: 8vh;
+  font-size: 1.80vh;
 }
 
 .title2 {
@@ -124,28 +116,52 @@
   font-size: 4vh;
   font-weight: bold;
   margin-bottom: -15vh;
+  text-shadow: #525252 0.04em 0.03em 0.05em;
 }
 
 .button1 {
-  padding: 110px 0px 0px 0px;
-  
+  padding: 110px;
+  margin-bottom: -160px;
+}
+
+.button2 {
+  padding: 15px;
+  padding-bottom: 60px;
 }
 
 .btn1 {
-  background-color: #084EDC;
-  color: #FFF;
+  background-color: #084edc;
+  color: #fff;
   padding: 1em 2em;
   text-decoration: none;
   transition: 0.5s;
   cursor: pointer;
   border-radius: 100px;
   font-weight: bold;
-  flex-direction: column;
   margin-bottom: -100px;
-  font-size: 1.3em;
+  font-size: 2vh;
+  box-shadow: 0 0 3px #525252;
 }
 
 .btn1:hover {
   background-color: #525252;
 }
 
+.linha {
+  width: 25vw;
+  height: 0.1vh;
+  background-color: #084edc;
+  margin: 0 auto;
+  margin-bottom: 8vh;
+  margin-top: 2.5vh;
+}
+
+.linha2 {
+  width: 25vw;
+  height: 0.1vh;
+  background-color: #084edc;
+  margin: 0 auto;
+  margin-top: 9vh;
+  margin-bottom: -2vh;
+
+}

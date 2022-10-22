@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styles from './Navbar.module.css'
-import './navbar.css'
 import logo from '../../../img/logo.png'
 import login from '../../../img/login.png'
 
@@ -38,10 +37,10 @@ export default function Navbar() {
             <Link to="/servicos">Serviços</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/login">Fazer login</Link>
+            <Link to="/login">Login</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/cadastro">Cadastre-se</Link>
+            <Link to="/cadastro"><span>Cadastre-se</span></Link>
           </li>
           <li className={styles.item}>
             <Link to="/contact">Contato</Link>
