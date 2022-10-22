@@ -6,40 +6,62 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-weight: bold;
   padding: 25px;
 }
 
 .cadastro_container h1 {
-  color: #084EDC;
+  color: #084edc;
   font-weight: bold;
-  padding: 20px;
-  font-size: 2.0em;
-  margin-bottom: 15px;
+  font-size: 3vh;
+  padding: 1.5vh;
+  text-shadow: black 0.04em 0.03em 0.05em;
 }
 
-.btn {
-  background-color: #525252;
-  color: #FFF;
-  padding: 0.5em 1em;
+.cadastro_container p {
+  color: #525252;
+}
+
+.btn1 {
+  background-color: #084edc;
+  color: #fff;
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+  padding: 1vh 1vw;
   text-decoration: none;
   transition: 0.5s;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 30px;
   font-weight: bold;
-  margin-top: 40px;
-  flex-direction: column;
+  font-size: 1.5vh;
+  box-shadow: 0 0 3px black;
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: #084edc;
+  color: #fff;
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+  padding: 1vh 1vw;
+  text-decoration: none;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.5vh;
+  box-shadow: 0 0 3px black;
+  margin-left: 10px;
+  width: 5.8vw;
 }
 
 .btn:hover {
-  background-color: #084EDC;
+  background-color: #525252;
 }
 
 .empresa {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .processo {
@@ -51,16 +73,16 @@
 .processo h1 {
   margin-top: -30px;
   margin-bottom: 15px;
-  font-size: 2.0em;
+  font-size: 2em;
 }
 
 .processo input {
   margin-bottom: 15px;
 }
 
-.button1{
+.button1 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .form_group {
@@ -71,13 +93,12 @@
 
 .dados input {
   display: flex;
-
 }
 
 .linha {
   width: 100%;
   height: 1px;
-  background-color: #084EDC;
+  background-color: #084edc;
   margin: 50px 0;
 }
 

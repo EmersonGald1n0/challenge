@@ -18,6 +18,11 @@ export default function Servicos() {
       <div className={styles.servicos}>
 
         <h1 className={styles.title1}>CONHEÇA ALGUMAS DAS <span className={styles.span}>ÁREAS DE ATUAÇÃO</span> DISPONÍVEIS...</h1>
+        <div className={styles.button2}>
+          <Link to="/cadastro">
+            <button className={styles.btn1} type="submit">Cadastre-se agora...</button>
+          </Link>
+        </div>
         <div className={styles.linha} />
 
         <div className={styles.bloco1}>
@@ -80,7 +85,7 @@ export default function Servicos() {
 
         <div className={styles.button1}>
           <Link to="/cadastro">
-            <button className={styles.btn1} type="submit">INSCREVA-SE JÁ!!!</button>
+            <button className={styles.btn1} type="submit">Cadastre-se agora...</button>
           </Link>
         </div>
       </div>

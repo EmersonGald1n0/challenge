@@ -1,65 +1,65 @@
 .login {
-  width: 100%;
+  width: 100vw;
   height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 8em;
-  font-weight: bold;
+  padding: 15vh;
   text-align: center;
 }
 
 .btn {
-  background-color: #525252;
-  color: #FFF;
-  padding: 0.5em 1em;
-  margin-top: 20px;
+  background-color: #084edc;
+  color: #fff;
+  margin-top: 3vh;
+  padding: 1vh 1vw;
   text-decoration: none;
   transition: 0.5s;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 30px;
   font-weight: bold;
+  font-size: 2vh;
+  box-shadow: 0 0 3px #525252;
 }
 
 .btn:hover {
-  background-color: #084EDC;
+  background-color: #525252;
 }
 
 .email {
-  margin-top: 30px;
+  margin-top: 3vh;
+  box-shadow: 0 0 2px #525252;
 }
 
+.senha {
+  margin-top: 2vh;
+  box-shadow: 0 0 2px #525252;
+}
 .login h1 {
   color: #084EDC;
   font-weight: bold;
-  font-size: 2.5em;
-}
-
-.item {
-  font-weight: bold;
+  font-size: 4.3vh;
+  margin-bottom: -2vh;
+  margin-top: -1vh;
   
+  text-shadow: #525252 0.04em 0.03em 0.05em;
+
 }
 
-.item a {
-  color: #000;
-  text-decoration: none;
-}
+.login h3 {
+  color: #525252;
+  font-size: 2.6vh;
+  text-shadow: #525252 0.04em 0.03em 0.05em;
 
-.item a:hover {
-  color: #084EDC;
-  text-decoration: none;
-  list-style: none;
 }
-
-.list {
-  list-style: none;
-}
-
 .teste {
-  padding: 20px;
+  width: 20vw;
+  height: 1vh;
+  padding: 2vh;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .img1 {
-  width: 35%;
+  width: 20vh;
 }

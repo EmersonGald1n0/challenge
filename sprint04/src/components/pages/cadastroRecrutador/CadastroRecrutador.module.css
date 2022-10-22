@@ -1,6 +1,8 @@
 .cadastro_container {
+  margin-bottom: 2vh;
+  margin-top: 2vh;
   text-align: center;
-  width: 100%;
+  width: 100vw;
   height: 80vh;
   display: flex;
   flex-direction: column;
@@ -10,65 +12,80 @@
 }
 
 .cadastro_container h1 {
-  color: #084EDC;
-  font-weight: bold;
-  font-size: 2.5em;
-}
-
-.cadastro_container h3 {
   color: #525252;
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 2.5vh;
+  padding: 1.5vh;
+  text-shadow: #525252 0.04em 0.03em 0.05em;
 }
 
 .btn1 {
-  background-color: #525252;
-  color: #FFF;
-  padding: 0.5em 1em;
+  background-color: #084edc;
+  color: #fff;
+  margin-top: 3vh;
+  padding: 1vh 1vw;
   text-decoration: none;
   transition: 0.5s;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 30px;
   font-weight: bold;
+  font-size: 1.5vh;
+  box-shadow: 0 0 3px #525252;
   margin-top: 30px;
   margin-right: 10px;
 }
 
 .btn {
-  background-color: #525252;
-  color: #FFF;
-  padding: 0.5em 1em;
-  width: 94px;
+  background-color: #084edc;
+  color: #fff;
+  margin-top: 3vh;
+  padding: 1vh 1vw;
   text-decoration: none;
   transition: 0.5s;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 30px;
   font-weight: bold;
+  font-size: 1.5vh;
+  box-shadow: 0 0 3px #525252;
   margin-top: 30px;
   margin-left: 10px;
+  width: 5.8vw;
 }
 
 .btn:hover {
-  background-color: #084EDC;
+  background-color: #525252;
+}
+
+.btn1:hover {
+  background-color: #525252;
 }
 
 .img1 {
-  
-  
-  width: 55%;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  width: 13vw;
+  margin-bottom: 1.5vh;
 }
 
-.teste {
+.cadastro_container h3 {
+  font-size: 1.5vh;
+  margin-top: 1vh;
   color: #525252;
-  border-radius: 5px;
-  font-size: 0.9em;
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
 }
 
-.teste2 {
-  margin-top: 15px;
+.linha {
+  width: 12.3vw;
+  height: 0.1vh;
+  background-color: #084edc;
+  margin: 0 auto;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+}
+
+.cadastro_container input {
+  width: 25vh;
+  height: 1.5vw;
+  border-radius: 0.5vh;
+  border-color: #084edc;
+  text-align: center;
+  box-shadow: 0 0 2px #525252;
+
 }

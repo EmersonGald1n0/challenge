@@ -37,10 +37,10 @@ export default function Navbar() {
             <Link to="/servicos">Serviços</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/login">Fazer login</Link>
+            <Link to="/login">Login</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/cadastro">Cadastre-se</Link>
+            <Link to="/cadastro"><span>Cadastre-se</span></Link>
           </li>
           <li className={styles.item}>
             <Link to="/contact">Contato</Link>

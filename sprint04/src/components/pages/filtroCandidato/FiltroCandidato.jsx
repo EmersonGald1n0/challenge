@@ -1,120 +1,132 @@
-import React from 'react'
-import { DivFiltro } from './../../../style/styled'
-import styles from './FiltroCandidato.module.css'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { DivFiltro } from "./../../../style/styled";
+import styles from "./FiltroCandidato.module.css";
+import { Link } from "react-router-dom";
 
 export default function FiltroCandidato() {
-
   return (
     <div>
       <DivFiltro>
         <div className={styles.lista}>
-          <legend><span>Linguagens</span></legend>
-          <input type="checkbox" value={'ReactJS'} 
+          <h1>
+            Linguagens de <span>Programação</span>
+          </h1>
+          <input
+            type="checkbox"
+            value={"ReactJS"}
             name="linguagens"
             id="ling01"
           />
           <label htmlFor="ling01">ReactJS</label>
-          <input type="checkbox" name="linguagens" id="ling02" value={'Java'} />
+          <input type="checkbox" name="linguagens" id="ling02" value={"Java"} />
           <label htmlFor="ling02">Java</label>
           <input
             type="checkbox"
             name="linguagens"
             id="ling03"
-            value={'Python'}
+            value={"Python"}
           />
           <label htmlFor="ling03">Python</label>
-          <input type="checkbox" name="linguagens" id="ling04" value={'SQL'} />
+          <input type="checkbox" name="linguagens" id="ling04" value={"SQL"} />
           <label htmlFor="ling04">SQL</label>
-          <input type="checkbox" name="linguagens" id="ling05" value={'C#'} />
+          <input type="checkbox" name="linguagens" id="ling05" value={"C#"} />
           <label htmlFor="ling05">C#</label>
           <input
             type="checkbox"
             name="linguagens"
             id="ling06"
-            value={'JavaScript'}
+            value={"JavaScript"}
           />
           <label htmlFor="ling06">JavaScript</label>
           <input
             type="checkbox"
             name="linguagens"
             id="ling07"
-            value={'HTML5'}
+            value={"HTML5"}
           />
           <label htmlFor="ling04">HTML5</label>
           <input
             type="checkbox"
             name="lingagues"
             id="ling08"
-            value={'Outros'}
+            value={"Outros"}
           />
           <label htmlFor="ling05">Outros</label>
         </div>
         <br />
         <div className={styles.linha} />
         <div>
-          <legend><span>Sexo</span></legend>
-          <input type="checkbox" name="genero" id="gen01" value={'Masculino'} />
+          <h1>
+            <span>Sexo</span>
+          </h1>
+          <input type="checkbox" name="genero" id="gen01" value={"Masculino"} />
           <label htmlFor="gen01">Masculino</label>
-          <input type="checkbox" name="genero" id="gen02" value={'Feminino'} />
+          <input type="checkbox" name="genero" id="gen02" value={"Feminino"} />
           <label htmlFor="gen02">Feminino</label>
-          <input type="checkbox" name="genero" id="gen03" value={'LGBTQIA+'} />
+          <input type="checkbox" name="genero" id="gen03" value={"LGBTQIA+"} />
           <label htmlFor="gen03">LGBTQIA+</label>
-          <input type="checkbox" name="genero" id="gen04" value={'Outros'} />
+          <input type="checkbox" name="genero" id="gen04" value={"Outros"} />
           <label htmlFor="gen04">Outros</label>
         </div>
         <br />
         <div className={styles.linha} />
         <div>
-          <legend>Pretensão <span>Salarial</span></legend>
-          <input type="checkbox" name="salario" id="sal01" value={'1000'} />
+          <h1>
+            Pretensão <span>Salarial</span>
+          </h1>
+          <input type="checkbox" name="salario" id="sal01" value={"1000"} />
           <label htmlFor="sal01">R$1.300,00</label>
-          <input type="checkbox" name="salario" id="sal02" value={'2000'} />
+          <input type="checkbox" name="salario" id="sal02" value={"2000"} />
           <label htmlFor="sal02">R$2.000,00</label>
-          <input type="checkbox" name="salario" id="sal03" value={'3000'} />
+          <input type="checkbox" name="salario" id="sal03" value={"3000"} />
           <label htmlFor="sal03">R$3.000,00</label>
-          <input type="checkbox" name="salario" id="sal04" value={'4000'} />
+          <input type="checkbox" name="salario" id="sal04" value={"4000"} />
           <label htmlFor="sal04">R$4.000,00</label>
-          <input type="checkbox" name="salario" id="sal05" value={'8000'} />
+          <input type="checkbox" name="salario" id="sal05" value={"8000"} />
           <label htmlFor="sal05">Acima de R$8.000,00</label>
         </div>
         <br />
         <div className={styles.linha} />
         <div>
-          <legend>Formação <span>Acadêmica</span></legend>
+          <h1>
+            Formação <span>Acadêmica</span>
+          </h1>
           <input
             type="checkbox"
             name="formacao"
             id="form01"
-            value={'Ensino Médio'}
+            value={"Ensino Médio"}
           />
           <label htmlFor="sal01">Ensino Médio</label>
           <input
             type="checkbox"
             name="formacao"
             id="form02"
-            value={'Bacharel'}
+            value={"Bacharel"}
           />
           <label htmlFor="sal02">Bacharel</label>
-          <input type="checkbox" name="formacao" id="form03" value={'MBA'} />
+          <input type="checkbox" name="formacao" id="form03" value={"MBA"} />
           <label htmlFor="sal03">MBA</label>
           <input
             type="checkbox"
             name="formacao"
             id="form04"
-            value={'Mestrado'}
+            value={"Mestrado"}
           />
           <label htmlFor="sal04">Mestrado</label>
-          <input type="checkbox" name="formacao" id="form05" value={'Outros'} />
+          <input type="checkbox" name="formacao" id="form05" value={"Outros"} />
           <label htmlFor="sal05">Outros</label>
         </div>
-        <br />
-        <br />
-        <div className={styles.button1}>
-          <button className={styles.btn} type='submit'>Aplicar filtros</button>
+        <div className={styles.btn1}>
+          <button className={styles.btn1} type="submit">
+            Aplicar filtros
+          </button>
         </div>
         <div className={styles.linha} />
-        <h1><span>Filtros</span></h1>
+
+        <h1>
+          <span>Filtros</span>
+        </h1>
         <table>
           <thead>
             <tr>
@@ -309,9 +321,7 @@ export default function FiltroCandidato() {
             </tr>
           </tfoot>
         </table>
-
-      
       </DivFiltro>
     </div>
-  )
+  );
 }

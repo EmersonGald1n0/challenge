@@ -60,7 +60,7 @@ export default function Login() {
       </div>
 
       <h1>BEM VINDO</h1>
-      <h2>Acesse o seu perfil</h2>
+      <h3>Acesse o seu perfil</h3>
 
       <form onSubmit={handleSubmit}>
         <div>
@@ -68,7 +68,7 @@ export default function Login() {
             className={styles.email}
             type="email"
             id="email"
-            placeholder="Digite seu login..."
+            placeholder="Email..."
             value={login.email}
             onChange={handleChange}
           />
@@ -76,10 +76,10 @@ export default function Login() {
 
         <div>
           <input
-            className={styles.nome}
+            className={styles.senha}
             type="password"
             id="senha"
-            placeholder="Digite a sua senha..."
+            placeholder="Senha..."
             value={login.setLogin}
             onChange={handleChange}
           />

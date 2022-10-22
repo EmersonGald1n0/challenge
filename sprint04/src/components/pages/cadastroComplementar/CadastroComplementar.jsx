@@ -7,7 +7,7 @@ export default function CadastroComplementar() {
 
   return (
     <div className={styles.cadastro_container}>
-      <h1>Email</h1>
+        <h1>Email</h1>
       <form action="/pagina-processa-dados-do-form" method="post">
           <div className="wrapper">
             <p>Tipo de <span>Email...</span></p>
@@ -58,7 +58,7 @@ export default function CadastroComplementar() {
                 <div className={styles.dados}>
                   <h1>Endereço</h1>
                   <div>
-                    <input type="nome" id="nome" placeholder='Endereço...' />
+                    <input type="text" id="nome" placeholder='Endereço...' />
                     <input type = "text" placeholder = "Nº Endereço…" />
                     <input type = "text" placeholder = "Nº CEP…" />
                     <input type = "text" placeholder = "Complemento…" />
@@ -85,11 +85,13 @@ export default function CadastroComplementar() {
         </div>
         <div className={styles.button1}>
           <Link to="/perfilCandidato">
-            <button className={styles.btn} type="submit">Salvar Informações</button>
+            <button className={styles.btn1} type="submit">
+              Cadastrar
+            </button>
           </Link>
-          <Link to="/perfilCandidato">
-            <button className={styles.btn} type="submit">Voltar para o perfil</button>
-          </Link>
+          <button className={styles.btn} type="reset">
+            Limpar
+          </button>
         </div>
       </form>
     </div>
