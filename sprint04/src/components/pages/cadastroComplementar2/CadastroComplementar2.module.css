@@ -53,14 +53,9 @@
   margin-left: 10px;
   width: 5.8vw;
 }
-.cadastro_container input {
-  box-shadow: 0 0 3px #525252;
-}
 
-.cadastro_container label{
+.cadastro_container label {
   font-size: 1.5vh;
-
-  
 }
 
 .btn:hover {

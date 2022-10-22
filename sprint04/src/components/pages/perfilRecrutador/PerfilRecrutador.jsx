@@ -73,6 +73,7 @@ export default function PerfilRecrutador() {
             <h3>
               Status Processo <span>Seletivo</span>
             </h3>
+            
             <div className={styles.form_group}>
               <input
                 className="radio"
