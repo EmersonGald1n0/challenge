@@ -117,6 +117,10 @@ export default function FiltroCandidato() {
           <input type="checkbox" name="formacao" id="form05" value={"Outros"} />
           <label htmlFor="sal05">Outros</label>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
         <div className={styles.btn1}>
           <button className={styles.btn1} type="submit">
             Aplicar filtros

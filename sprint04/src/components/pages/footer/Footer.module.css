@@ -2,8 +2,10 @@
 .footer {
   background-color: #efefef;
   color: #525252;
-  padding: 4vh;
+  padding: 2vh;
   text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  margin-top: 4.5vh;
 }
 
 .social_list {
