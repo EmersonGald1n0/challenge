@@ -1,22 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArtLabs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ArtLabs</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-    rel="stylesheet">
-</head>
+  <body>
+    <noscript
+      >NECESSÁRIO A UTILIZAÇÃO DE JAVASCRIPT PARA RODAR A PÁGINA</noscript
+    >
+    <div id="root"></div>
+  </body>
+</html>
 
-<body>
-  <noscript>NECESSÁRIO A UTILIZAÇÃO DE JAVASCRIPT PARA RODAR A PÁGINA</noscript>
-  <div id="root"></div>
+<html>
+  <head></head>
 
-</body>
+  <body>
 
+    <https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?backgroundImageURL=https%3A%2F%2Fus-south.assistant.watson.cloud.ibm.com%2Fpublic%2Fimages%2Fupx-1ed63cae-f77e-456c-88e4-b1b8e399de8c%3A%3A054893df-2697-4e84-a92d-e0fde7b0b8e8&integrationID=3ce6eb43-f457-44db-a902-48fb8dc9d761&region=us-south&serviceInstanceID=1ed63cae-f77e-456c-88e4-b1b8e399de8c>
+  </body>
+
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "3ce6eb43-f457-44db-a902-48fb8dc9d761", // The ID of this integration.
+
+      region: "us-south", // The region your integration is hosted in.
+
+      serviceInstanceID: "1ed63cae-f77e-456c-88e4-b1b8e399de8c", // The ID of your service instance.
+
+      onLoad: function (instance) {
+        instance.render();
+      },
+    };
+
+    setTimeout(function () {
+      const t = document.createElement("script");
+
+      t.src =
+        "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+        (window.watsonAssistantChatOptions.clientVersion || "latest") +
+        "/WatsonAssistantChatEntry.js";
+
+      document.head.appendChild(t);
+    });
+  </script>
 </html>
