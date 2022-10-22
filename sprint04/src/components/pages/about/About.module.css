@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  margin-top: 2vh;
 }
 
 .text h1 {
